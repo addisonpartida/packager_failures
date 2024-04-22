@@ -1,0 +1,1005 @@
+Common labels: {"app":"packager-daemon","attributes__version":"1","attributes_log_iostream":"stdout","attributes_mdc_joblet_identifier":"2171132622805792005120864","attributes_mdc_request_id":"4746240511","attributes_mdc_source_host":"packager-daemon-7cc6576dd6-vqgth","attributes_source_host":"packager-daemon-7cc6576dd6-vqgth","attributes_thread_name":"main","body":"<nil>","cluster_name":"opi-prod-2","environment":"prod","exporter":"OTLP","level":"INFO","namespace":"default","project":"liveramp-eng-dist","region":"us","resources_container_image_name":"gcr.io/liveramp-eng/s2s_packager","resources_container_image_tag":"57de195-54","resources_k8s_pod_name":"packager-daemon-7cc6576dd6-vqgth","service_name":"packager-daemon","team":"opi"}
+Line limit: "1000 reached, received logs cover 1.63% (5h 52min 37sec) of your selected time range (360h)"
+Total bytes processed: "2.19  GB"
+
+
+2024-04-17 09:16:49.915	packager-daemon INFO Opened file part-12145 for reading (12145/12288 files complete; 1738023707485/1758354243289 bytes complete)
+2024-04-17 09:16:03.571	packager-daemon INFO Opened file part-12144 for reading (12144/12288 files complete; 1737878296830/1758354243289 bytes complete)
+2024-04-17 09:15:42.482	packager-daemon INFO Opened file part-12143 for reading (12143/12288 files complete; 1737741851487/1758354243289 bytes complete)
+2024-04-17 09:15:17.193	packager-daemon INFO Have created 1738 output streams
+2024-04-17 09:15:16.896	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001737
+2024-04-17 09:15:16.263	packager-daemon INFO Opened file part-12142 for reading (12142/12288 files complete; 1737596647959/1758354243289 bytes complete)
+2024-04-17 09:15:03.630	packager-daemon INFO Opened file part-12141 for reading (12141/12288 files complete; 1737451288606/1758354243289 bytes complete)
+2024-04-17 09:14:50.969	packager-daemon INFO Opened file part-12140 for reading (12140/12288 files complete; 1737315045024/1758354243289 bytes complete)
+2024-04-17 09:14:38.382	packager-daemon INFO Opened file part-12139 for reading (12139/12288 files complete; 1737169746732/1758354243289 bytes complete)
+2024-04-17 09:14:25.530	packager-daemon INFO Opened file part-12138 for reading (12138/12288 files complete; 1737024346860/1758354243289 bytes complete)
+2024-04-17 09:14:12.350	packager-daemon INFO Opened file part-12137 for reading (12137/12288 files complete; 1736888306019/1758354243289 bytes complete)
+2024-04-17 09:13:54.862	packager-daemon INFO Opened file part-12136 for reading (12136/12288 files complete; 1736743025448/1758354243289 bytes complete)
+2024-04-17 09:13:39.083	packager-daemon INFO Opened file part-12135 for reading (12135/12288 files complete; 1736597727893/1758354243289 bytes complete)
+2024-04-17 09:13:38.606	packager-daemon INFO Have created 1737 output streams
+2024-04-17 09:13:38.250	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001736
+2024-04-17 09:13:28.963	packager-daemon INFO Opened file part-12134 for reading (12134/12288 files complete; 1736462407935/1758354243289 bytes complete)
+2024-04-17 09:13:19.554	packager-daemon INFO Opened file part-12133 for reading (12133/12288 files complete; 1736317054435/1758354243289 bytes complete)
+2024-04-17 09:13:11.046	packager-daemon INFO Opened file part-12132 for reading (12132/12288 files complete; 1736171772588/1758354243289 bytes complete)
+2024-04-17 09:13:02.709	packager-daemon INFO Opened file part-12131 for reading (12131/12288 files complete; 1736036559677/1758354243289 bytes complete)
+2024-04-17 09:12:53.642	packager-daemon INFO Opened file part-12130 for reading (12130/12288 files complete; 1735891294267/1758354243289 bytes complete)
+2024-04-17 09:12:44.981	packager-daemon INFO Opened file part-12129 for reading (12129/12288 files complete; 1735746006478/1758354243289 bytes complete)
+2024-04-17 09:12:36.426	packager-daemon INFO Opened file part-12128 for reading (12128/12288 files complete; 1735609581040/1758354243289 bytes complete)
+2024-04-17 09:12:34.648	packager-daemon INFO Have created 1736 output streams
+2024-04-17 09:12:34.341	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001735
+2024-04-17 09:12:27.935	packager-daemon INFO Opened file part-12127 for reading (12127/12288 files complete; 1735464244018/1758354243289 bytes complete)
+2024-04-17 09:12:20.546	packager-daemon INFO Opened file part-12126 for reading (12126/12288 files complete; 1735318918881/1758354243289 bytes complete)
+2024-04-17 09:12:14.086	packager-daemon INFO Opened file part-12125 for reading (12125/12288 files complete; 1735182806304/1758354243289 bytes complete)
+2024-04-17 09:12:07.028	packager-daemon INFO Opened file part-12124 for reading (12124/12288 files complete; 1735037538169/1758354243289 bytes complete)
+2024-04-17 09:11:59.653	packager-daemon INFO Opened file part-12123 for reading (12123/12288 files complete; 1734892176368/1758354243289 bytes complete)
+2024-04-17 09:11:52.915	packager-daemon INFO Opened file part-12122 for reading (12122/12288 files complete; 1734756042138/1758354243289 bytes complete)
+2024-04-17 09:11:45.910	packager-daemon INFO Opened file part-12121 for reading (12121/12288 files complete; 1734610859987/1758354243289 bytes complete)
+2024-04-17 09:11:44.478	packager-daemon INFO Have created 1735 output streams
+2024-04-17 09:11:44.158	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001734
+2024-04-17 09:11:38.026	packager-daemon INFO Opened file part-12120 for reading (12120/12288 files complete; 1734465460283/1758354243289 bytes complete)
+2024-04-17 09:11:32.763	packager-daemon INFO Opened file part-12119 for reading (12119/12288 files complete; 1734328559729/1758354243289 bytes complete)
+2024-04-17 09:11:26.381	packager-daemon INFO Opened file part-12118 for reading (12118/12288 files complete; 1734183395102/1758354243289 bytes complete)
+2024-04-17 09:11:19.403	packager-daemon INFO Opened file part-12117 for reading (12117/12288 files complete; 1734037984750/1758354243289 bytes complete)
+2024-04-17 09:11:13.500	packager-daemon INFO Opened file part-12116 for reading (12116/12288 files complete; 1733901977993/1758354243289 bytes complete)
+2024-04-17 09:11:07.519	packager-daemon INFO Opened file part-12115 for reading (12115/12288 files complete; 1733756667615/1758354243289 bytes complete)
+2024-04-17 09:11:00.657	packager-daemon INFO Opened file part-12114 for reading (12114/12288 files complete; 1733611318322/1758354243289 bytes complete)
+2024-04-17 09:10:59.654	packager-daemon INFO Have created 1734 output streams
+2024-04-17 09:10:59.257	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001733
+2024-04-17 09:10:53.691	packager-daemon INFO Opened file part-12113 for reading (12113/12288 files complete; 1733475127099/1758354243289 bytes complete)
+2024-04-17 09:10:47.810	packager-daemon INFO Opened file part-12112 for reading (12112/12288 files complete; 1733329865350/1758354243289 bytes complete)
+2024-04-17 09:10:42.006	packager-daemon INFO Opened file part-12111 for reading (12111/12288 files complete; 1733184512325/1758354243289 bytes complete)
+2024-04-17 09:10:35.723	packager-daemon INFO Opened file part-12110 for reading (12110/12288 files complete; 1733047914212/1758354243289 bytes complete)
+2024-04-17 09:10:29.697	packager-daemon INFO Opened file part-12109 for reading (12109/12288 files complete; 1732902570987/1758354243289 bytes complete)
+2024-04-17 09:10:23.725	packager-daemon INFO Opened file part-12108 for reading (12108/12288 files complete; 1732757264484/1758354243289 bytes complete)
+2024-04-17 09:10:17.740	packager-daemon INFO Opened file part-12107 for reading (12107/12288 files complete; 1732620733805/1758354243289 bytes complete)
+2024-04-17 09:10:16.482	packager-daemon INFO Have created 1733 output streams
+2024-04-17 09:10:16.113	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001732
+2024-04-17 09:10:11.878	packager-daemon INFO Opened file part-12106 for reading (12106/12288 files complete; 1732475441928/1758354243289 bytes complete)
+2024-04-17 09:10:06.825	packager-daemon INFO Opened file part-12105 for reading (12105/12288 files complete; 1732330061170/1758354243289 bytes complete)
+2024-04-17 09:10:01.935	packager-daemon INFO Opened file part-12104 for reading (12104/12288 files complete; 1732193606899/1758354243289 bytes complete)
+2024-04-17 09:09:56.617	packager-daemon INFO Opened file part-12103 for reading (12103/12288 files complete; 1732048456223/1758354243289 bytes complete)
+2024-04-17 09:09:51.491	packager-daemon INFO Opened file part-12102 for reading (12102/12288 files complete; 1731903063257/1758354243289 bytes complete)
+2024-04-17 09:09:46.649	packager-daemon INFO Opened file part-12101 for reading (12101/12288 files complete; 1731765795265/1758354243289 bytes complete)
+2024-04-17 09:09:41.402	packager-daemon INFO Opened file part-12100 for reading (12100/12288 files complete; 1731620474218/1758354243289 bytes complete)
+2024-04-17 09:09:39.733	packager-daemon INFO Have created 1732 output streams
+2024-04-17 09:09:39.398	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001731
+2024-04-17 09:09:35.430	packager-daemon INFO Opened file part-12099 for reading (12099/12288 files complete; 1731475123189/1758354243289 bytes complete)
+2024-04-17 09:09:30.521	packager-daemon INFO Opened file part-12098 for reading (12098/12288 files complete; 1731339347348/1758354243289 bytes complete)
+2024-04-17 09:09:25.869	packager-daemon INFO Opened file part-12097 for reading (12097/12288 files complete; 1731193999732/1758354243289 bytes complete)
+2024-04-17 09:09:20.943	packager-daemon INFO Opened file part-12096 for reading (12096/12288 files complete; 1731048731819/1758354243289 bytes complete)
+2024-04-17 09:09:16.474	packager-daemon INFO Opened file part-12095 for reading (12095/12288 files complete; 1730912888734/1758354243289 bytes complete)
+2024-04-17 09:09:11.358	packager-daemon INFO Opened file part-12094 for reading (12094/12288 files complete; 1730767590492/1758354243289 bytes complete)
+2024-04-17 09:09:05.944	packager-daemon INFO Opened file part-12093 for reading (12093/12288 files complete; 1730622216812/1758354243289 bytes complete)
+2024-04-17 09:09:04.771	packager-daemon INFO Have created 1731 output streams
+2024-04-17 09:09:04.444	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001730
+2024-04-17 09:09:01.166	packager-daemon INFO Opened file part-12092 for reading (12092/12288 files complete; 1730485545226/1758354243289 bytes complete)
+2024-04-17 09:08:56.277	packager-daemon INFO Opened file part-12091 for reading (12091/12288 files complete; 1730340362677/1758354243289 bytes complete)
+2024-04-17 09:08:51.733	packager-daemon INFO Opened file part-12090 for reading (12090/12288 files complete; 1730194990810/1758354243289 bytes complete)
+2024-04-17 09:08:47.534	packager-daemon INFO Opened file part-12089 for reading (12089/12288 files complete; 1730057811247/1758354243289 bytes complete)
+2024-04-17 09:08:42.886	packager-daemon INFO Opened file part-12088 for reading (12088/12288 files complete; 1729912581826/1758354243289 bytes complete)
+2024-04-17 09:08:38.384	packager-daemon INFO Opened file part-12087 for reading (12087/12288 files complete; 1729767252980/1758354243289 bytes complete)
+2024-04-17 09:08:34.087	packager-daemon INFO Opened file part-12086 for reading (12086/12288 files complete; 1729631114837/1758354243289 bytes complete)
+2024-04-17 09:08:32.332	packager-daemon INFO Have created 1730 output streams
+2024-04-17 09:08:32.014	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001729
+2024-04-17 09:08:29.256	packager-daemon INFO Opened file part-12085 for reading (12085/12288 files complete; 1729485802734/1758354243289 bytes complete)
+2024-04-17 09:08:24.937	packager-daemon INFO Opened file part-12084 for reading (12084/12288 files complete; 1729340490632/1758354243289 bytes complete)
+2024-04-17 09:08:20.888	packager-daemon INFO Opened file part-12083 for reading (12083/12288 files complete; 1729204190248/1758354243289 bytes complete)
+2024-04-17 09:08:16.888	packager-daemon INFO Opened file part-12082 for reading (12082/12288 files complete; 1729058939824/1758354243289 bytes complete)
+2024-04-17 09:08:12.795	packager-daemon INFO Opened file part-12081 for reading (12081/12288 files complete; 1728913664270/1758354243289 bytes complete)
+2024-04-17 09:08:09.035	packager-daemon INFO Opened file part-12080 for reading (12080/12288 files complete; 1728777099060/1758354243289 bytes complete)
+2024-04-17 09:08:04.606	packager-daemon INFO Opened file part-12079 for reading (12079/12288 files complete; 1728631784673/1758354243289 bytes complete)
+2024-04-17 09:08:03.804	packager-daemon INFO Have created 1729 output streams
+2024-04-17 09:08:03.100	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001728
+2024-04-17 09:07:59.143	packager-daemon INFO Opened file part-12078 for reading (12078/12288 files complete; 1728486486558/1758354243289 bytes complete)
+2024-04-17 09:07:55.301	packager-daemon INFO Opened file part-12077 for reading (12077/12288 files complete; 1728350253864/1758354243289 bytes complete)
+2024-04-17 09:07:51.194	packager-daemon INFO Opened file part-12076 for reading (12076/12288 files complete; 1728204893456/1758354243289 bytes complete)
+2024-04-17 09:07:47.335	packager-daemon INFO Opened file part-12075 for reading (12075/12288 files complete; 1728059596103/1758354243289 bytes complete)
+2024-04-17 09:07:43.731	packager-daemon INFO Opened file part-12074 for reading (12074/12288 files complete; 1727922977152/1758354243289 bytes complete)
+2024-04-17 09:07:39.384	packager-daemon INFO Opened file part-12073 for reading (12073/12288 files complete; 1727777663463/1758354243289 bytes complete)
+2024-04-17 09:07:34.798	packager-daemon INFO Opened file part-12072 for reading (12072/12288 files complete; 1727632341774/1758354243289 bytes complete)
+2024-04-17 09:07:33.903	packager-daemon INFO Have created 1728 output streams
+2024-04-17 09:07:33.507	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001727
+2024-04-17 09:07:30.658	packager-daemon INFO Opened file part-12071 for reading (12071/12288 files complete; 1727495897204/1758354243289 bytes complete)
+2024-04-17 09:07:26.688	packager-daemon INFO Opened file part-12070 for reading (12070/12288 files complete; 1727350645524/1758354243289 bytes complete)
+2024-04-17 09:07:22.655	packager-daemon INFO Opened file part-12069 for reading (12069/12288 files complete; 1727205263768/1758354243289 bytes complete)
+2024-04-17 09:07:18.602	packager-daemon INFO Opened file part-12068 for reading (12068/12288 files complete; 1727068360712/1758354243289 bytes complete)
+2024-04-17 09:07:14.628	packager-daemon INFO Opened file part-12067 for reading (12067/12288 files complete; 1726922989480/1758354243289 bytes complete)
+2024-04-17 09:07:10.840	packager-daemon INFO Opened file part-12066 for reading (12066/12288 files complete; 1726777666824/1758354243289 bytes complete)
+2024-04-17 09:07:06.907	packager-daemon INFO Opened file part-12065 for reading (12065/12288 files complete; 1726639843925/1758354243289 bytes complete)
+2024-04-17 09:07:05.302	packager-daemon INFO Have created 1727 output streams
+2024-04-17 09:07:05.015	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001726
+2024-04-17 09:07:02.643	packager-daemon INFO Opened file part-12064 for reading (12064/12288 files complete; 1726494561991/1758354243289 bytes complete)
+2024-04-17 09:06:58.744	packager-daemon INFO Opened file part-12063 for reading (12063/12288 files complete; 1726349218072/1758354243289 bytes complete)
+2024-04-17 09:06:54.641	packager-daemon INFO Opened file part-12062 for reading (12062/12288 files complete; 1726213439965/1758354243289 bytes complete)
+2024-04-17 09:06:51.124	packager-daemon INFO Opened file part-12061 for reading (12061/12288 files complete; 1726068164627/1758354243289 bytes complete)
+2024-04-17 09:06:46.030	packager-daemon INFO Opened file part-12060 for reading (12060/12288 files complete; 1725922804395/1758354243289 bytes complete)
+2024-04-17 09:06:41.565	packager-daemon INFO Opened file part-12059 for reading (12059/12288 files complete; 1725785618279/1758354243289 bytes complete)
+2024-04-17 09:06:37.774	packager-daemon INFO Opened file part-12058 for reading (12058/12288 files complete; 1725640293274/1758354243289 bytes complete)
+2024-04-17 09:06:36.332	packager-daemon INFO Have created 1726 output streams
+2024-04-17 09:06:36.015	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001725
+2024-04-17 09:06:33.792	packager-daemon INFO Opened file part-12057 for reading (12057/12288 files complete; 1725494966748/1758354243289 bytes complete)
+2024-04-17 09:06:30.637	packager-daemon INFO Opened file part-12056 for reading (12056/12288 files complete; 1725359333871/1758354243289 bytes complete)
+2024-04-17 09:06:26.995	packager-daemon INFO Opened file part-12055 for reading (12055/12288 files complete; 1725214058224/1758354243289 bytes complete)
+2024-04-17 09:06:23.727	packager-daemon INFO Opened file part-12054 for reading (12054/12288 files complete; 1725068749803/1758354243289 bytes complete)
+2024-04-17 09:06:20.597	packager-daemon INFO Opened file part-12053 for reading (12053/12288 files complete; 1724932541424/1758354243289 bytes complete)
+2024-04-17 09:06:16.934	packager-daemon INFO Opened file part-12052 for reading (12052/12288 files complete; 1724787359735/1758354243289 bytes complete)
+2024-04-17 09:06:13.334	packager-daemon INFO Opened file part-12051 for reading (12051/12288 files complete; 1724642000158/1758354243289 bytes complete)
+2024-04-17 09:06:12.405	packager-daemon INFO Have created 1725 output streams
+2024-04-17 09:06:12.097	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001724
+2024-04-17 09:06:09.968	packager-daemon INFO Opened file part-12050 for reading (12050/12288 files complete; 1724506044629/1758354243289 bytes complete)
+2024-04-17 09:06:06.683	packager-daemon INFO Opened file part-12049 for reading (12049/12288 files complete; 1724360728501/1758354243289 bytes complete)
+2024-04-17 09:06:01.804	packager-daemon INFO Opened file part-12048 for reading (12048/12288 files complete; 1724215403471/1758354243289 bytes complete)
+2024-04-17 09:05:58.386	packager-daemon INFO Opened file part-12047 for reading (12047/12288 files complete; 1724079002955/1758354243289 bytes complete)
+2024-04-17 09:05:54.650	packager-daemon INFO Opened file part-12046 for reading (12046/12288 files complete; 1723933676384/1758354243289 bytes complete)
+2024-04-17 09:05:51.298	packager-daemon INFO Opened file part-12045 for reading (12045/12288 files complete; 1723788396263/1758354243289 bytes complete)
+2024-04-17 09:05:46.764	packager-daemon INFO Opened file part-12044 for reading (12044/12288 files complete; 1723651495537/1758354243289 bytes complete)
+2024-04-17 09:05:45.653	packager-daemon INFO Have created 1724 output streams
+2024-04-17 09:05:45.336	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001723
+2024-04-17 09:05:43.167	packager-daemon INFO Opened file part-12043 for reading (12043/12288 files complete; 1723506311154/1758354243289 bytes complete)
+2024-04-17 09:05:39.576	packager-daemon INFO Opened file part-12042 for reading (12042/12288 files complete; 1723360944970/1758354243289 bytes complete)
+2024-04-17 09:05:36.213	packager-daemon INFO Opened file part-12041 for reading (12041/12288 files complete; 1723224212597/1758354243289 bytes complete)
+2024-04-17 09:05:32.661	packager-daemon INFO Opened file part-12040 for reading (12040/12288 files complete; 1723078909080/1758354243289 bytes complete)
+2024-04-17 09:05:28.631	packager-daemon INFO Opened file part-12039 for reading (12039/12288 files complete; 1722933624947/1758354243289 bytes complete)
+2024-04-17 09:05:23.829	packager-daemon INFO Opened file part-12038 for reading (12038/12288 files complete; 1722795932734/1758354243289 bytes complete)
+2024-04-17 09:05:19.266	packager-daemon INFO Opened file part-12037 for reading (12037/12288 files complete; 1722650664320/1758354243289 bytes complete)
+2024-04-17 09:05:18.026	packager-daemon INFO Have created 1723 output streams
+2024-04-17 09:05:17.709	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001722
+2024-04-17 09:05:15.136	packager-daemon INFO Opened file part-12036 for reading (12036/12288 files complete; 1722505289997/1758354243289 bytes complete)
+2024-04-17 09:05:11.637	packager-daemon INFO Opened file part-12035 for reading (12035/12288 files complete; 1722368352502/1758354243289 bytes complete)
+2024-04-17 09:05:08.438	packager-daemon INFO Opened file part-12034 for reading (12034/12288 files complete; 1722223158550/1758354243289 bytes complete)
+2024-04-17 09:05:04.864	packager-daemon INFO Opened file part-12033 for reading (12033/12288 files complete; 1722077797192/1758354243289 bytes complete)
+2024-04-17 09:05:01.211	packager-daemon INFO Opened file part-12032 for reading (12032/12288 files complete; 1721940854499/1758354243289 bytes complete)
+2024-04-17 09:04:57.654	packager-daemon INFO Opened file part-12031 for reading (12031/12288 files complete; 1721795582595/1758354243289 bytes complete)
+2024-04-17 09:04:53.927	packager-daemon INFO Opened file part-12030 for reading (12030/12288 files complete; 1721650276834/1758354243289 bytes complete)
+2024-04-17 09:04:52.818	packager-daemon INFO Have created 1722 output streams
+2024-04-17 09:04:52.514	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001721
+2024-04-17 09:04:50.517	packager-daemon INFO Opened file part-12029 for reading (12029/12288 files complete; 1721514357818/1758354243289 bytes complete)
+2024-04-17 09:04:47.619	packager-daemon INFO Opened file part-12028 for reading (12028/12288 files complete; 1721369046679/1758354243289 bytes complete)
+2024-04-17 09:04:44.109	packager-daemon INFO Opened file part-12027 for reading (12027/12288 files complete; 1721223712997/1758354243289 bytes complete)
+2024-04-17 09:04:40.512	packager-daemon INFO Opened file part-12026 for reading (12026/12288 files complete; 1721086011150/1758354243289 bytes complete)
+2024-04-17 09:04:37.484	packager-daemon INFO Opened file part-12025 for reading (12025/12288 files complete; 1720940691265/1758354243289 bytes complete)
+2024-04-17 09:04:33.758	packager-daemon INFO Opened file part-12024 for reading (12024/12288 files complete; 1720795350203/1758354243289 bytes complete)
+2024-04-17 09:04:30.345	packager-daemon INFO Opened file part-12023 for reading (12023/12288 files complete; 1720658454575/1758354243289 bytes complete)
+2024-04-17 09:04:29.093	packager-daemon INFO Have created 1721 output streams
+2024-04-17 09:04:28.731	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001720
+2024-04-17 09:04:26.545	packager-daemon INFO Opened file part-12022 for reading (12022/12288 files complete; 1720513253482/1758354243289 bytes complete)
+2024-04-17 09:04:22.844	packager-daemon INFO Opened file part-12021 for reading (12021/12288 files complete; 1720367857861/1758354243289 bytes complete)
+2024-04-17 09:04:19.472	packager-daemon INFO Opened file part-12020 for reading (12020/12288 files complete; 1720230937543/1758354243289 bytes complete)
+2024-04-17 09:04:16.256	packager-daemon INFO Opened file part-12019 for reading (12019/12288 files complete; 1720085748091/1758354243289 bytes complete)
+2024-04-17 09:04:12.741	packager-daemon INFO Opened file part-12018 for reading (12018/12288 files complete; 1719940402331/1758354243289 bytes complete)
+2024-04-17 09:04:09.757	packager-daemon INFO Opened file part-12017 for reading (12017/12288 files complete; 1719804640284/1758354243289 bytes complete)
+2024-04-17 09:04:06.022	packager-daemon INFO Opened file part-12016 for reading (12016/12288 files complete; 1719659345595/1758354243289 bytes complete)
+2024-04-17 09:04:04.736	packager-daemon INFO Have created 1720 output streams
+2024-04-17 09:04:04.391	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001719
+2024-04-17 09:04:02.206	packager-daemon INFO Opened file part-12015 for reading (12015/12288 files complete; 1719514037515/1758354243289 bytes complete)
+2024-04-17 09:03:59.072	packager-daemon INFO Opened file part-12014 for reading (12014/12288 files complete; 1719377086027/1758354243289 bytes complete)
+2024-04-17 09:03:55.560	packager-daemon INFO Opened file part-12013 for reading (12013/12288 files complete; 1719231904750/1758354243289 bytes complete)
+2024-04-17 09:03:45.208	packager-daemon INFO Opened file part-12012 for reading (12012/12288 files complete; 1719086538718/1758354243289 bytes complete)
+2024-04-17 09:03:42.386	packager-daemon INFO Opened file part-12011 for reading (12011/12288 files complete; 1718949911382/1758354243289 bytes complete)
+2024-04-17 09:03:38.016	packager-daemon INFO Opened file part-12010 for reading (12010/12288 files complete; 1718804610275/1758354243289 bytes complete)
+2024-04-17 09:03:33.886	packager-daemon INFO Opened file part-12009 for reading (12009/12288 files complete; 1718659268419/1758354243289 bytes complete)
+2024-04-17 09:03:32.063	packager-daemon INFO Have created 1719 output streams
+2024-04-17 09:03:31.600	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001718
+2024-04-17 09:03:29.830	packager-daemon INFO Opened file part-12008 for reading (12008/12288 files complete; 1718522366385/1758354243289 bytes complete)
+2024-04-17 09:03:26.417	packager-daemon INFO Opened file part-12007 for reading (12007/12288 files complete; 1718377028904/1758354243289 bytes complete)
+2024-04-17 09:03:22.286	packager-daemon INFO Opened file part-12006 for reading (12006/12288 files complete; 1718231712336/1758354243289 bytes complete)
+2024-04-17 09:03:19.039	packager-daemon INFO Opened file part-12005 for reading (12005/12288 files complete; 1718095835925/1758354243289 bytes complete)
+2024-04-17 09:03:15.655	packager-daemon INFO Opened file part-12004 for reading (12004/12288 files complete; 1717950627926/1758354243289 bytes complete)
+2024-04-17 09:03:12.593	packager-daemon INFO Opened file part-12003 for reading (12003/12288 files complete; 1717805241240/1758354243289 bytes complete)
+2024-04-17 09:03:09.286	packager-daemon INFO Opened file part-12002 for reading (12002/12288 files complete; 1717668801858/1758354243289 bytes complete)
+2024-04-17 09:03:07.933	packager-daemon INFO Have created 1718 output streams
+2024-04-17 09:03:07.595	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001717
+2024-04-17 09:03:05.850	packager-daemon INFO Opened file part-12001 for reading (12001/12288 files complete; 1717523593591/1758354243289 bytes complete)
+2024-04-17 09:03:02.736	packager-daemon INFO Opened file part-12000 for reading (12000/12288 files complete; 1717378256899/1758354243289 bytes complete)
+2024-04-17 09:02:59.959	packager-daemon INFO Opened file part-11999 for reading (11999/12288 files complete; 1717240957730/1758354243289 bytes complete)
+2024-04-17 09:02:56.616	packager-daemon INFO Opened file part-11998 for reading (11998/12288 files complete; 1717095634670/1758354243289 bytes complete)
+2024-04-17 09:02:53.698	packager-daemon INFO Opened file part-11997 for reading (11997/12288 files complete; 1716950311230/1758354243289 bytes complete)
+2024-04-17 09:02:50.368	packager-daemon INFO Opened file part-11996 for reading (11996/12288 files complete; 1716814322613/1758354243289 bytes complete)
+2024-04-17 09:02:47.491	packager-daemon INFO Opened file part-11995 for reading (11995/12288 files complete; 1716669021963/1758354243289 bytes complete)
+2024-04-17 09:02:45.422	packager-daemon INFO Have created 1717 output streams
+2024-04-17 09:02:45.125	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001716
+2024-04-17 09:02:43.648	packager-daemon INFO Opened file part-11994 for reading (11994/12288 files complete; 1716523737410/1758354243289 bytes complete)
+2024-04-17 09:02:40.373	packager-daemon INFO Opened file part-11993 for reading (11993/12288 files complete; 1716386619931/1758354243289 bytes complete)
+2024-04-17 09:02:37.129	packager-daemon INFO Opened file part-11992 for reading (11992/12288 files complete; 1716241351792/1758354243289 bytes complete)
+2024-04-17 09:02:33.952	packager-daemon INFO Opened file part-11991 for reading (11991/12288 files complete; 1716095998640/1758354243289 bytes complete)
+2024-04-17 09:02:31.018	packager-daemon INFO Opened file part-11990 for reading (11990/12288 files complete; 1715959263619/1758354243289 bytes complete)
+2024-04-17 09:02:27.397	packager-daemon INFO Opened file part-11989 for reading (11989/12288 files complete; 1715814097682/1758354243289 bytes complete)
+2024-04-17 09:02:21.016	packager-daemon INFO Opened file part-11988 for reading (11988/12288 files complete; 1715668704251/1758354243289 bytes complete)
+2024-04-17 09:02:19.703	packager-daemon INFO Have created 1716 output streams
+2024-04-17 09:02:18.856	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001715
+2024-04-17 09:02:17.842	packager-daemon INFO Opened file part-11987 for reading (11987/12288 files complete; 1715532109482/1758354243289 bytes complete)
+2024-04-17 09:02:14.508	packager-daemon INFO Opened file part-11986 for reading (11986/12288 files complete; 1715386781734/1758354243289 bytes complete)
+2024-04-17 09:02:11.605	packager-daemon INFO Opened file part-11985 for reading (11985/12288 files complete; 1715241520525/1758354243289 bytes complete)
+2024-04-17 09:02:08.607	packager-daemon INFO Opened file part-11984 for reading (11984/12288 files complete; 1715104256335/1758354243289 bytes complete)
+2024-04-17 09:02:05.580	packager-daemon INFO Opened file part-11983 for reading (11983/12288 files complete; 1714958983947/1758354243289 bytes complete)
+2024-04-17 09:02:02.231	packager-daemon INFO Opened file part-11982 for reading (11982/12288 files complete; 1714813663597/1758354243289 bytes complete)
+2024-04-17 09:01:59.265	packager-daemon INFO Opened file part-11981 for reading (11981/12288 files complete; 1714677875094/1758354243289 bytes complete)
+2024-04-17 09:01:57.351	packager-daemon INFO Have created 1715 output streams
+2024-04-17 09:01:56.994	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001714
+2024-04-17 09:01:55.992	packager-daemon INFO Opened file part-11980 for reading (11980/12288 files complete; 1714532661966/1758354243289 bytes complete)
+2024-04-17 09:01:52.760	packager-daemon INFO Opened file part-11979 for reading (11979/12288 files complete; 1714387347961/1758354243289 bytes complete)
+2024-04-17 09:01:50.109	packager-daemon INFO Opened file part-11978 for reading (11978/12288 files complete; 1714250569457/1758354243289 bytes complete)
+2024-04-17 09:01:47.191	packager-daemon INFO Opened file part-11977 for reading (11977/12288 files complete; 1714105322387/1758354243289 bytes complete)
+2024-04-17 09:01:44.434	packager-daemon INFO Opened file part-11976 for reading (11976/12288 files complete; 1713959963692/1758354243289 bytes complete)
+2024-04-17 09:01:41.609	packager-daemon INFO Opened file part-11975 for reading (11975/12288 files complete; 1713823210721/1758354243289 bytes complete)
+2024-04-17 09:01:38.911	packager-daemon INFO Opened file part-11974 for reading (11974/12288 files complete; 1713677978438/1758354243289 bytes complete)
+2024-04-17 09:01:37.173	packager-daemon INFO Have created 1714 output streams
+2024-04-17 09:01:36.866	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001713
+2024-04-17 09:01:35.383	packager-daemon INFO Opened file part-11973 for reading (11973/12288 files complete; 1713532648013/1758354243289 bytes complete)
+2024-04-17 09:01:32.574	packager-daemon INFO Opened file part-11972 for reading (11972/12288 files complete; 1713395248575/1758354243289 bytes complete)
+2024-04-17 09:01:30.079	packager-daemon INFO Opened file part-11971 for reading (11971/12288 files complete; 1713249976274/1758354243289 bytes complete)
+2024-04-17 09:01:26.192	packager-daemon INFO Opened file part-11970 for reading (11970/12288 files complete; 1713104623947/1758354243289 bytes complete)
+2024-04-17 09:01:23.389	packager-daemon INFO Opened file part-11969 for reading (11969/12288 files complete; 1712967975837/1758354243289 bytes complete)
+2024-04-17 09:01:20.426	packager-daemon INFO Opened file part-11968 for reading (11968/12288 files complete; 1712822759770/1758354243289 bytes complete)
+2024-04-17 09:01:17.376	packager-daemon INFO Opened file part-11967 for reading (11967/12288 files complete; 1712677423320/1758354243289 bytes complete)
+2024-04-17 09:01:15.827	packager-daemon INFO Have created 1713 output streams
+2024-04-17 09:01:15.550	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001712
+2024-04-17 09:01:14.145	packager-daemon INFO Opened file part-11966 for reading (11966/12288 files complete; 1712540672859/1758354243289 bytes complete)
+2024-04-17 09:01:11.684	packager-daemon INFO Opened file part-11965 for reading (11965/12288 files complete; 1712395437035/1758354243289 bytes complete)
+2024-04-17 09:01:08.845	packager-daemon INFO Opened file part-11964 for reading (11964/12288 files complete; 1712250154460/1758354243289 bytes complete)
+2024-04-17 09:01:05.777	packager-daemon INFO Opened file part-11963 for reading (11963/12288 files complete; 1712113731657/1758354243289 bytes complete)
+2024-04-17 09:01:02.641	packager-daemon INFO Opened file part-11962 for reading (11962/12288 files complete; 1711968463785/1758354243289 bytes complete)
+2024-04-17 09:01:00.001	packager-daemon INFO Opened file part-11961 for reading (11961/12288 files complete; 1711823164680/1758354243289 bytes complete)
+2024-04-17 09:00:56.914	packager-daemon INFO Opened file part-11960 for reading (11960/12288 files complete; 1711686721240/1758354243289 bytes complete)
+2024-04-17 09:00:55.181	packager-daemon INFO Have created 1712 output streams
+2024-04-17 09:00:54.872	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001711
+2024-04-17 09:00:53.313	packager-daemon INFO Opened file part-11959 for reading (11959/12288 files complete; 1711541582263/1758354243289 bytes complete)
+2024-04-17 09:00:50.429	packager-daemon INFO Opened file part-11958 for reading (11958/12288 files complete; 1711396210038/1758354243289 bytes complete)
+2024-04-17 09:00:47.814	packager-daemon INFO Opened file part-11957 for reading (11957/12288 files complete; 1711259803643/1758354243289 bytes complete)
+2024-04-17 09:00:44.777	packager-daemon INFO Opened file part-11956 for reading (11956/12288 files complete; 1711114528671/1758354243289 bytes complete)
+2024-04-17 09:00:41.761	packager-daemon INFO Opened file part-11955 for reading (11955/12288 files complete; 1710969190237/1758354243289 bytes complete)
+2024-04-17 09:00:39.475	packager-daemon INFO Opened file part-11954 for reading (11954/12288 files complete; 1710832636515/1758354243289 bytes complete)
+2024-04-17 09:00:36.362	packager-daemon INFO Opened file part-11953 for reading (11953/12288 files complete; 1710687372853/1758354243289 bytes complete)
+2024-04-17 09:00:34.762	packager-daemon INFO Have created 1711 output streams
+2024-04-17 09:00:34.427	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001710
+2024-04-17 09:00:33.202	packager-daemon INFO Opened file part-11952 for reading (11952/12288 files complete; 1710541976013/1758354243289 bytes complete)
+2024-04-17 09:00:30.375	packager-daemon INFO Opened file part-11951 for reading (11951/12288 files complete; 1710405756395/1758354243289 bytes complete)
+2024-04-17 09:00:27.563	packager-daemon INFO Opened file part-11950 for reading (11950/12288 files complete; 1710260395847/1758354243289 bytes complete)
+2024-04-17 09:00:24.413	packager-daemon INFO Opened file part-11949 for reading (11949/12288 files complete; 1710115077348/1758354243289 bytes complete)
+2024-04-17 09:00:21.737	packager-daemon INFO Opened file part-11948 for reading (11948/12288 files complete; 1709979111984/1758354243289 bytes complete)
+2024-04-17 09:00:18.844	packager-daemon INFO Opened file part-11947 for reading (11947/12288 files complete; 1709833801130/1758354243289 bytes complete)
+2024-04-17 09:00:15.805	packager-daemon INFO Opened file part-11946 for reading (11946/12288 files complete; 1709688458477/1758354243289 bytes complete)
+2024-04-17 09:00:14.115	packager-daemon INFO Have created 1710 output streams
+2024-04-17 09:00:13.747	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001709
+2024-04-17 09:00:12.783	packager-daemon INFO Opened file part-11945 for reading (11945/12288 files complete; 1709551686294/1758354243289 bytes complete)
+2024-04-17 09:00:10.230	packager-daemon INFO Opened file part-11944 for reading (11944/12288 files complete; 1709406313068/1758354243289 bytes complete)
+2024-04-17 09:00:07.128	packager-daemon INFO Opened file part-11943 for reading (11943/12288 files complete; 1709261027079/1758354243289 bytes complete)
+2024-04-17 09:00:04.748	packager-daemon INFO Opened file part-11942 for reading (11942/12288 files complete; 1709123307688/1758354243289 bytes complete)
+2024-04-17 09:00:01.661	packager-daemon INFO Opened file part-11941 for reading (11941/12288 files complete; 1708978009105/1758354243289 bytes complete)
+2024-04-17 08:59:58.982	packager-daemon INFO Opened file part-11940 for reading (11940/12288 files complete; 1708832677067/1758354243289 bytes complete)
+2024-04-17 08:59:56.691	packager-daemon INFO Opened file part-11939 for reading (11939/12288 files complete; 1708695273513/1758354243289 bytes complete)
+2024-04-17 08:59:54.994	packager-daemon INFO Have created 1709 output streams
+2024-04-17 08:59:54.737	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001708
+2024-04-17 08:59:53.616	packager-daemon INFO Opened file part-11938 for reading (11938/12288 files complete; 1708549947062/1758354243289 bytes complete)
+2024-04-17 08:59:51.247	packager-daemon INFO Opened file part-11937 for reading (11937/12288 files complete; 1708404648468/1758354243289 bytes complete)
+2024-04-17 08:59:48.220	packager-daemon INFO Opened file part-11936 for reading (11936/12288 files complete; 1708267486889/1758354243289 bytes complete)
+2024-04-17 08:59:45.411	packager-daemon INFO Opened file part-11935 for reading (11935/12288 files complete; 1708122302781/1758354243289 bytes complete)
+2024-04-17 08:59:42.555	packager-daemon INFO Opened file part-11934 for reading (11934/12288 files complete; 1707976929199/1758354243289 bytes complete)
+2024-04-17 08:59:40.153	packager-daemon INFO Opened file part-11933 for reading (11933/12288 files complete; 1707840257630/1758354243289 bytes complete)
+2024-04-17 08:59:37.105	packager-daemon INFO Opened file part-11932 for reading (11932/12288 files complete; 1707695048537/1758354243289 bytes complete)
+2024-04-17 08:59:35.318	packager-daemon INFO Have created 1708 output streams
+2024-04-17 08:59:35.004	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001707
+2024-04-17 08:59:33.844	packager-daemon INFO Opened file part-11931 for reading (11931/12288 files complete; 1707549680507/1758354243289 bytes complete)
+2024-04-17 08:59:31.513	packager-daemon INFO Opened file part-11930 for reading (11930/12288 files complete; 1707413106425/1758354243289 bytes complete)
+2024-04-17 08:59:28.370	packager-daemon INFO Opened file part-11929 for reading (11929/12288 files complete; 1707267783983/1758354243289 bytes complete)
+2024-04-17 08:59:25.808	packager-daemon INFO Opened file part-11928 for reading (11928/12288 files complete; 1707122486099/1758354243289 bytes complete)
+2024-04-17 08:59:22.453	packager-daemon INFO Opened file part-11927 for reading (11927/12288 files complete; 1706986242913/1758354243289 bytes complete)
+2024-04-17 08:59:20.090	packager-daemon INFO Opened file part-11926 for reading (11926/12288 files complete; 1706840924230/1758354243289 bytes complete)
+2024-04-17 08:59:11.214	packager-daemon INFO Opened file part-11925 for reading (11925/12288 files complete; 1706695615343/1758354243289 bytes complete)
+2024-04-17 08:59:04.683	packager-daemon INFO Have created 1707 output streams
+2024-04-17 08:59:04.364	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001706
+2024-04-17 08:58:56.722	packager-daemon INFO Opened file part-11924 for reading (11924/12288 files complete; 1706558817606/1758354243289 bytes complete)
+2024-04-17 08:58:54.240	packager-daemon INFO Opened file part-11923 for reading (11923/12288 files complete; 1706413578249/1758354243289 bytes complete)
+2024-04-17 08:58:51.409	packager-daemon INFO Opened file part-11922 for reading (11922/12288 files complete; 1706268211609/1758354243289 bytes complete)
+2024-04-17 08:58:48.329	packager-daemon INFO Opened file part-11921 for reading (11921/12288 files complete; 1706132398360/1758354243289 bytes complete)
+2024-04-17 08:58:45.760	packager-daemon INFO Opened file part-11920 for reading (11920/12288 files complete; 1705987115862/1758354243289 bytes complete)
+2024-04-17 08:58:42.550	packager-daemon INFO Opened file part-11919 for reading (11919/12288 files complete; 1705841760064/1758354243289 bytes complete)
+2024-04-17 08:58:40.226	packager-daemon INFO Opened file part-11918 for reading (11918/12288 files complete; 1705705314005/1758354243289 bytes complete)
+2024-04-17 08:58:37.964	packager-daemon INFO Have created 1706 output streams
+2024-04-17 08:58:37.654	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001705
+2024-04-17 08:58:37.182	packager-daemon INFO Opened file part-11917 for reading (11917/12288 files complete; 1705559975868/1758354243289 bytes complete)
+2024-04-17 08:58:33.953	packager-daemon INFO Opened file part-11916 for reading (11916/12288 files complete; 1705414634987/1758354243289 bytes complete)
+2024-04-17 08:58:31.229	packager-daemon INFO Opened file part-11915 for reading (11915/12288 files complete; 1705277019978/1758354243289 bytes complete)
+2024-04-17 08:58:28.804	packager-daemon INFO Opened file part-11914 for reading (11914/12288 files complete; 1705131696467/1758354243289 bytes complete)
+2024-04-17 08:58:25.866	packager-daemon INFO Opened file part-11913 for reading (11913/12288 files complete; 1704986378820/1758354243289 bytes complete)
+2024-04-17 08:58:23.142	packager-daemon INFO Opened file part-11912 for reading (11912/12288 files complete; 1704849580849/1758354243289 bytes complete)
+2024-04-17 08:58:20.769	packager-daemon INFO Opened file part-11911 for reading (11911/12288 files complete; 1704704241219/1758354243289 bytes complete)
+2024-04-17 08:58:18.516	packager-daemon INFO Have created 1705 output streams
+2024-04-17 08:58:18.224	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001704
+2024-04-17 08:58:17.549	packager-daemon INFO Opened file part-11910 for reading (11910/12288 files complete; 1704558949063/1758354243289 bytes complete)
+2024-04-17 08:58:14.897	packager-daemon INFO Opened file part-11909 for reading (11909/12288 files complete; 1704422128158/1758354243289 bytes complete)
+2024-04-17 08:58:11.937	packager-daemon INFO Opened file part-11908 for reading (11908/12288 files complete; 1704276785380/1758354243289 bytes complete)
+2024-04-17 08:58:09.349	packager-daemon INFO Opened file part-11907 for reading (11907/12288 files complete; 1704131491926/1758354243289 bytes complete)
+2024-04-17 08:58:06.266	packager-daemon INFO Opened file part-11906 for reading (11906/12288 files complete; 1703994731480/1758354243289 bytes complete)
+2024-04-17 08:58:03.240	packager-daemon INFO Opened file part-11905 for reading (11905/12288 files complete; 1703849443196/1758354243289 bytes complete)
+2024-04-17 08:58:00.485	packager-daemon INFO Opened file part-11904 for reading (11904/12288 files complete; 1703704063643/1758354243289 bytes complete)
+2024-04-17 08:57:58.684	packager-daemon INFO Have created 1704 output streams
+2024-04-17 08:57:58.411	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001703
+2024-04-17 08:57:57.968	packager-daemon INFO Opened file part-11903 for reading (11903/12288 files complete; 1703566827644/1758354243289 bytes complete)
+2024-04-17 08:57:55.032	packager-daemon INFO Opened file part-11902 for reading (11902/12288 files complete; 1703421480520/1758354243289 bytes complete)
+2024-04-17 08:57:52.534	packager-daemon INFO Opened file part-11901 for reading (11901/12288 files complete; 1703276173260/1758354243289 bytes complete)
+2024-04-17 08:57:50.093	packager-daemon INFO Opened file part-11900 for reading (11900/12288 files complete; 1703139485136/1758354243289 bytes complete)
+2024-04-17 08:57:47.331	packager-daemon INFO Opened file part-11899 for reading (11899/12288 files complete; 1702994216247/1758354243289 bytes complete)
+2024-04-17 08:57:44.929	packager-daemon INFO Opened file part-11898 for reading (11898/12288 files complete; 1702848918155/1758354243289 bytes complete)
+2024-04-17 08:57:42.536	packager-daemon INFO Opened file part-11897 for reading (11897/12288 files complete; 1702712267644/1758354243289 bytes complete)
+2024-04-17 08:57:40.236	packager-daemon INFO Have created 1703 output streams
+2024-04-17 08:57:39.932	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001702
+2024-04-17 08:57:39.543	packager-daemon INFO Opened file part-11896 for reading (11896/12288 files complete; 1702566981711/1758354243289 bytes complete)
+2024-04-17 08:57:37.013	packager-daemon INFO Opened file part-11895 for reading (11895/12288 files complete; 1702421691653/1758354243289 bytes complete)
+2024-04-17 08:57:34.724	packager-daemon INFO Opened file part-11894 for reading (11894/12288 files complete; 1702284737567/1758354243289 bytes complete)
+2024-04-17 08:57:31.769	packager-daemon INFO Opened file part-11893 for reading (11893/12288 files complete; 1702139528890/1758354243289 bytes complete)
+2024-04-17 08:57:29.406	packager-daemon INFO Opened file part-11892 for reading (11892/12288 files complete; 1701994147342/1758354243289 bytes complete)
+2024-04-17 08:57:26.971	packager-daemon INFO Opened file part-11891 for reading (11891/12288 files complete; 1701857358070/1758354243289 bytes complete)
+2024-04-17 08:57:23.919	packager-daemon INFO Opened file part-11890 for reading (11890/12288 files complete; 1701712142753/1758354243289 bytes complete)
+2024-04-17 08:57:22.048	packager-daemon INFO Have created 1702 output streams
+2024-04-17 08:57:21.755	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001701
+2024-04-17 08:57:21.212	packager-daemon INFO Opened file part-11889 for reading (11889/12288 files complete; 1701566833078/1758354243289 bytes complete)
+2024-04-17 08:57:18.916	packager-daemon INFO Opened file part-11888 for reading (11888/12288 files complete; 1701430124684/1758354243289 bytes complete)
+2024-04-17 08:57:16.401	packager-daemon INFO Opened file part-11887 for reading (11887/12288 files complete; 1701284951101/1758354243289 bytes complete)
+2024-04-17 08:57:13.446	packager-daemon INFO Opened file part-11886 for reading (11886/12288 files complete; 1701139573876/1758354243289 bytes complete)
+2024-04-17 08:57:11.255	packager-daemon INFO Opened file part-11885 for reading (11885/12288 files complete; 1701002515600/1758354243289 bytes complete)
+2024-04-17 08:57:08.409	packager-daemon INFO Opened file part-11884 for reading (11884/12288 files complete; 1700857307027/1758354243289 bytes complete)
+2024-04-17 08:57:06.023	packager-daemon INFO Opened file part-11883 for reading (11883/12288 files complete; 1700711950052/1758354243289 bytes complete)
+2024-04-17 08:57:03.700	packager-daemon INFO Have created 1701 output streams
+2024-04-17 08:57:03.420	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001700
+2024-04-17 08:57:03.057	packager-daemon INFO Opened file part-11882 for reading (11882/12288 files complete; 1700575082578/1758354243289 bytes complete)
+2024-04-17 08:57:00.577	packager-daemon INFO Opened file part-11881 for reading (11881/12288 files complete; 1700429894379/1758354243289 bytes complete)
+2024-04-17 08:56:58.188	packager-daemon INFO Opened file part-11880 for reading (11880/12288 files complete; 1700284523516/1758354243289 bytes complete)
+2024-04-17 08:56:55.748	packager-daemon INFO Opened file part-11879 for reading (11879/12288 files complete; 1700147228483/1758354243289 bytes complete)
+2024-04-17 08:56:52.874	packager-daemon INFO Opened file part-11878 for reading (11878/12288 files complete; 1700002024687/1758354243289 bytes complete)
+2024-04-17 08:56:50.210	packager-daemon INFO Opened file part-11877 for reading (11877/12288 files complete; 1699856708506/1758354243289 bytes complete)
+2024-04-17 08:56:47.843	packager-daemon INFO Opened file part-11876 for reading (11876/12288 files complete; 1699720903693/1758354243289 bytes complete)
+2024-04-17 08:56:45.552	packager-daemon INFO Have created 1700 output streams
+2024-04-17 08:56:45.272	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001699
+2024-04-17 08:56:44.591	packager-daemon INFO Opened file part-11875 for reading (11875/12288 files complete; 1699575600489/1758354243289 bytes complete)
+2024-04-17 08:56:41.577	packager-daemon INFO Opened file part-11874 for reading (11874/12288 files complete; 1699430281734/1758354243289 bytes complete)
+2024-04-17 08:56:39.218	packager-daemon INFO Opened file part-11873 for reading (11873/12288 files complete; 1699292153121/1758354243289 bytes complete)
+2024-04-17 08:56:36.725	packager-daemon INFO Opened file part-11872 for reading (11872/12288 files complete; 1699146866995/1758354243289 bytes complete)
+2024-04-17 08:56:34.303	packager-daemon INFO Opened file part-11871 for reading (11871/12288 files complete; 1699001593201/1758354243289 bytes complete)
+2024-04-17 08:56:31.505	packager-daemon INFO Opened file part-11870 for reading (11870/12288 files complete; 1698864921593/1758354243289 bytes complete)
+2024-04-17 08:56:28.938	packager-daemon INFO Opened file part-11869 for reading (11869/12288 files complete; 1698719672330/1758354243289 bytes complete)
+2024-04-17 08:56:26.931	packager-daemon INFO Have created 1699 output streams
+2024-04-17 08:56:26.660	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001698
+2024-04-17 08:56:26.327	packager-daemon INFO Opened file part-11868 for reading (11868/12288 files complete; 1698574320039/1758354243289 bytes complete)
+2024-04-17 08:56:23.858	packager-daemon INFO Opened file part-11867 for reading (11867/12288 files complete; 1698437316285/1758354243289 bytes complete)
+2024-04-17 08:56:20.911	packager-daemon INFO Opened file part-11866 for reading (11866/12288 files complete; 1698292034658/1758354243289 bytes complete)
+2024-04-17 08:56:17.957	packager-daemon INFO Opened file part-11865 for reading (11865/12288 files complete; 1698146697416/1758354243289 bytes complete)
+2024-04-17 08:56:15.654	packager-daemon INFO Opened file part-11864 for reading (11864/12288 files complete; 1698009918171/1758354243289 bytes complete)
+2024-04-17 08:56:13.205	packager-daemon INFO Opened file part-11863 for reading (11863/12288 files complete; 1697864614710/1758354243289 bytes complete)
+2024-04-17 08:56:10.614	packager-daemon INFO Opened file part-11862 for reading (11862/12288 files complete; 1697719265225/1758354243289 bytes complete)
+2024-04-17 08:56:08.634	packager-daemon INFO Have created 1698 output streams
+2024-04-17 08:56:08.295	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001697
+2024-04-17 08:56:08.088	packager-daemon INFO Opened file part-11861 for reading (11861/12288 files complete; 1697581465290/1758354243289 bytes complete)
+2024-04-17 08:56:05.471	packager-daemon INFO Opened file part-11860 for reading (11860/12288 files complete; 1697436157167/1758354243289 bytes complete)
+2024-04-17 08:56:02.629	packager-daemon INFO Opened file part-11859 for reading (11859/12288 files complete; 1697290812584/1758354243289 bytes complete)
+2024-04-17 08:55:59.805	packager-daemon INFO Opened file part-11858 for reading (11858/12288 files complete; 1697154396993/1758354243289 bytes complete)
+2024-04-17 08:55:57.329	packager-daemon INFO Opened file part-11857 for reading (11857/12288 files complete; 1697009192545/1758354243289 bytes complete)
+2024-04-17 08:55:54.757	packager-daemon INFO Opened file part-11856 for reading (11856/12288 files complete; 1696863841740/1758354243289 bytes complete)
+2024-04-17 08:55:52.397	packager-daemon INFO Opened file part-11855 for reading (11855/12288 files complete; 1696727149271/1758354243289 bytes complete)
+2024-04-17 08:55:50.341	packager-daemon INFO Have created 1697 output streams
+2024-04-17 08:55:50.029	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001696
+2024-04-17 08:55:49.860	packager-daemon INFO Opened file part-11854 for reading (11854/12288 files complete; 1696581804123/1758354243289 bytes complete)
+2024-04-17 08:55:46.888	packager-daemon INFO Opened file part-11853 for reading (11853/12288 files complete; 1696436495382/1758354243289 bytes complete)
+2024-04-17 08:55:44.453	packager-daemon INFO Opened file part-11852 for reading (11852/12288 files complete; 1696299417180/1758354243289 bytes complete)
+2024-04-17 08:55:41.914	packager-daemon INFO Opened file part-11851 for reading (11851/12288 files complete; 1696154083603/1758354243289 bytes complete)
+2024-04-17 08:55:39.230	packager-daemon INFO Opened file part-11850 for reading (11850/12288 files complete; 1696008763393/1758354243289 bytes complete)
+2024-04-17 08:55:36.607	packager-daemon INFO Opened file part-11849 for reading (11849/12288 files complete; 1695872366141/1758354243289 bytes complete)
+2024-04-17 08:55:34.089	packager-daemon INFO Opened file part-11848 for reading (11848/12288 files complete; 1695727171733/1758354243289 bytes complete)
+2024-04-17 08:55:31.492	packager-daemon INFO Have created 1696 output streams
+2024-04-17 08:55:31.207	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001695
+2024-04-17 08:55:30.981	packager-daemon INFO Opened file part-11847 for reading (11847/12288 files complete; 1695581818465/1758354243289 bytes complete)
+2024-04-17 08:55:28.494	packager-daemon INFO Opened file part-11846 for reading (11846/12288 files complete; 1695444873878/1758354243289 bytes complete)
+2024-04-17 08:55:25.926	packager-daemon INFO Opened file part-11845 for reading (11845/12288 files complete; 1695299552822/1758354243289 bytes complete)
+2024-04-17 08:55:22.942	packager-daemon INFO Opened file part-11844 for reading (11844/12288 files complete; 1695154271762/1758354243289 bytes complete)
+2024-04-17 08:55:20.451	packager-daemon INFO Opened file part-11843 for reading (11843/12288 files complete; 1695018026601/1758354243289 bytes complete)
+2024-04-17 08:55:16.519	packager-daemon INFO Opened file part-11842 for reading (11842/12288 files complete; 1694872853390/1758354243289 bytes complete)
+2024-04-17 08:55:13.391	packager-daemon INFO Opened file part-11841 for reading (11841/12288 files complete; 1694727485908/1758354243289 bytes complete)
+2024-04-17 08:55:10.561	packager-daemon INFO Opened file part-11840 for reading (11840/12288 files complete; 1694590754572/1758354243289 bytes complete)
+2024-04-17 08:55:10.077	packager-daemon INFO Have created 1695 output streams
+2024-04-17 08:55:09.766	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001694
+2024-04-17 08:55:07.255	packager-daemon INFO Opened file part-11839 for reading (11839/12288 files complete; 1694445535178/1758354243289 bytes complete)
+2024-04-17 08:55:04.638	packager-daemon INFO Opened file part-11838 for reading (11838/12288 files complete; 1694300178750/1758354243289 bytes complete)
+2024-04-17 08:55:02.018	packager-daemon INFO Opened file part-11837 for reading (11837/12288 files complete; 1694162698556/1758354243289 bytes complete)
+2024-04-17 08:54:59.518	packager-daemon INFO Opened file part-11836 for reading (11836/12288 files complete; 1694017352192/1758354243289 bytes complete)
+2024-04-17 08:54:57.061	packager-daemon INFO Opened file part-11835 for reading (11835/12288 files complete; 1693872003991/1758354243289 bytes complete)
+2024-04-17 08:54:54.476	packager-daemon INFO Opened file part-11834 for reading (11834/12288 files complete; 1693734737578/1758354243289 bytes complete)
+2024-04-17 08:54:51.840	packager-daemon INFO Opened file part-11833 for reading (11833/12288 files complete; 1693589411482/1758354243289 bytes complete)
+2024-04-17 08:54:51.764	packager-daemon INFO Have created 1694 output streams
+2024-04-17 08:54:51.459	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001693
+2024-04-17 08:54:48.694	packager-daemon INFO Opened file part-11832 for reading (11832/12288 files complete; 1693444084711/1758354243289 bytes complete)
+2024-04-17 08:54:46.421	packager-daemon INFO Opened file part-11831 for reading (11831/12288 files complete; 1693306584597/1758354243289 bytes complete)
+2024-04-17 08:54:43.626	packager-daemon INFO Opened file part-11830 for reading (11830/12288 files complete; 1693161387512/1758354243289 bytes complete)
+2024-04-17 08:54:40.973	packager-daemon INFO Opened file part-11829 for reading (11829/12288 files complete; 1693015990720/1758354243289 bytes complete)
+2024-04-17 08:54:38.545	packager-daemon INFO Opened file part-11828 for reading (11828/12288 files complete; 1692878974715/1758354243289 bytes complete)
+2024-04-17 08:54:35.164	packager-daemon INFO Opened file part-11827 for reading (11827/12288 files complete; 1692733793222/1758354243289 bytes complete)
+2024-04-17 08:54:32.696	packager-daemon INFO Opened file part-11826 for reading (11826/12288 files complete; 1692588490926/1758354243289 bytes complete)
+2024-04-17 08:54:32.625	packager-daemon INFO Have created 1693 output streams
+2024-04-17 08:54:32.322	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001692
+2024-04-17 08:54:29.747	packager-daemon INFO Opened file part-11825 for reading (11825/12288 files complete; 1692451392534/1758354243289 bytes complete)
+2024-04-17 08:54:27.233	packager-daemon INFO Opened file part-11824 for reading (11824/12288 files complete; 1692306212790/1758354243289 bytes complete)
+2024-04-17 08:54:24.543	packager-daemon INFO Opened file part-11823 for reading (11823/12288 files complete; 1692160867857/1758354243289 bytes complete)
+2024-04-17 08:54:21.649	packager-daemon INFO Opened file part-11822 for reading (11822/12288 files complete; 1692023804647/1758354243289 bytes complete)
+2024-04-17 08:54:19.069	packager-daemon INFO Opened file part-11821 for reading (11821/12288 files complete; 1691878672151/1758354243289 bytes complete)
+2024-04-17 08:54:16.392	packager-daemon INFO Opened file part-11820 for reading (11820/12288 files complete; 1691733283899/1758354243289 bytes complete)
+2024-04-17 08:54:14.089	packager-daemon INFO Opened file part-11819 for reading (11819/12288 files complete; 1691596312953/1758354243289 bytes complete)
+2024-04-17 08:54:13.941	packager-daemon INFO Have created 1692 output streams
+2024-04-17 08:54:13.663	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001691
+2024-04-17 08:54:10.890	packager-daemon INFO Opened file part-11818 for reading (11818/12288 files complete; 1691451121863/1758354243289 bytes complete)
+2024-04-17 08:54:07.678	packager-daemon INFO Opened file part-11817 for reading (11817/12288 files complete; 1691305738607/1758354243289 bytes complete)
+2024-04-17 08:54:05.399	packager-daemon INFO Opened file part-11816 for reading (11816/12288 files complete; 1691169221203/1758354243289 bytes complete)
+2024-04-17 08:54:03.028	packager-daemon INFO Opened file part-11815 for reading (11815/12288 files complete; 1691024020300/1758354243289 bytes complete)
+2024-04-17 08:54:00.642	packager-daemon INFO Opened file part-11814 for reading (11814/12288 files complete; 1690878693478/1758354243289 bytes complete)
+2024-04-17 08:53:58.068	packager-daemon INFO Opened file part-11813 for reading (11813/12288 files complete; 1690742453211/1758354243289 bytes complete)
+2024-04-17 08:53:55.101	packager-daemon INFO Opened file part-11812 for reading (11812/12288 files complete; 1690597267010/1758354243289 bytes complete)
+2024-04-17 08:53:54.945	packager-daemon INFO Have created 1691 output streams
+2024-04-17 08:53:54.636	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001690
+2024-04-17 08:53:52.155	packager-daemon INFO Opened file part-11811 for reading (11811/12288 files complete; 1690451895002/1758354243289 bytes complete)
+2024-04-17 08:53:49.850	packager-daemon INFO Opened file part-11810 for reading (11810/12288 files complete; 1690314956634/1758354243289 bytes complete)
+2024-04-17 08:53:47.343	packager-daemon INFO Opened file part-11809 for reading (11809/12288 files complete; 1690169665919/1758354243289 bytes complete)
+2024-04-17 08:53:44.855	packager-daemon INFO Opened file part-11808 for reading (11808/12288 files complete; 1690024372760/1758354243289 bytes complete)
+2024-04-17 08:53:41.927	packager-daemon INFO Opened file part-11807 for reading (11807/12288 files complete; 1689887211159/1758354243289 bytes complete)
+2024-04-17 08:53:39.245	packager-daemon INFO Opened file part-11806 for reading (11806/12288 files complete; 1689741917490/1758354243289 bytes complete)
+2024-04-17 08:53:35.988	packager-daemon INFO Opened file part-11805 for reading (11805/12288 files complete; 1689596628416/1758354243289 bytes complete)
+2024-04-17 08:53:35.835	packager-daemon INFO Have created 1690 output streams
+2024-04-17 08:53:35.550	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001689
+2024-04-17 08:53:33.476	packager-daemon INFO Opened file part-11804 for reading (11804/12288 files complete; 1689459713277/1758354243289 bytes complete)
+2024-04-17 08:53:31.035	packager-daemon INFO Opened file part-11803 for reading (11803/12288 files complete; 1689314452845/1758354243289 bytes complete)
+2024-04-17 08:53:28.262	packager-daemon INFO Opened file part-11802 for reading (11802/12288 files complete; 1689169131524/1758354243289 bytes complete)
+2024-04-17 08:53:25.785	packager-daemon INFO Opened file part-11801 for reading (11801/12288 files complete; 1689031908536/1758354243289 bytes complete)
+2024-04-17 08:53:23.188	packager-daemon INFO Opened file part-11800 for reading (11800/12288 files complete; 1688886737372/1758354243289 bytes complete)
+2024-04-17 08:53:20.719	packager-daemon INFO Opened file part-11799 for reading (11799/12288 files complete; 1688741370368/1758354243289 bytes complete)
+2024-04-17 08:53:18.428	packager-daemon INFO Opened file part-11798 for reading (11798/12288 files complete; 1688604015963/1758354243289 bytes complete)
+2024-04-17 08:53:18.157	packager-daemon INFO Have created 1689 output streams
+2024-04-17 08:53:17.863	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001688
+2024-04-17 08:53:15.647	packager-daemon INFO Opened file part-11797 for reading (11797/12288 files complete; 1688458748992/1758354243289 bytes complete)
+2024-04-17 08:53:12.962	packager-daemon INFO Opened file part-11796 for reading (11796/12288 files complete; 1688313471597/1758354243289 bytes complete)
+2024-04-17 08:53:10.446	packager-daemon INFO Opened file part-11795 for reading (11795/12288 files complete; 1688177293995/1758354243289 bytes complete)
+2024-04-17 08:53:07.759	packager-daemon INFO Opened file part-11794 for reading (11794/12288 files complete; 1688032090699/1758354243289 bytes complete)
+2024-04-17 08:53:05.064	packager-daemon INFO Opened file part-11793 for reading (11793/12288 files complete; 1687886725667/1758354243289 bytes complete)
+2024-04-17 08:53:02.435	packager-daemon INFO Opened file part-11792 for reading (11792/12288 files complete; 1687749325495/1758354243289 bytes complete)
+2024-04-17 08:52:59.585	packager-daemon INFO Opened file part-11791 for reading (11791/12288 files complete; 1687604026064/1758354243289 bytes complete)
+2024-04-17 08:52:59.316	packager-daemon INFO Have created 1688 output streams
+2024-04-17 08:52:58.909	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001687
+2024-04-17 08:52:56.695	packager-daemon INFO Opened file part-11790 for reading (11790/12288 files complete; 1687458687196/1758354243289 bytes complete)
+2024-04-17 08:52:54.236	packager-daemon INFO Opened file part-11789 for reading (11789/12288 files complete; 1687321123126/1758354243289 bytes complete)
+2024-04-17 08:52:51.658	packager-daemon INFO Opened file part-11788 for reading (11788/12288 files complete; 1687175842799/1758354243289 bytes complete)
+2024-04-17 08:52:48.666	packager-daemon INFO Opened file part-11787 for reading (11787/12288 files complete; 1687030496703/1758354243289 bytes complete)
+2024-04-17 08:52:46.316	packager-daemon INFO Opened file part-11786 for reading (11786/12288 files complete; 1686893390261/1758354243289 bytes complete)
+2024-04-17 08:52:43.679	packager-daemon INFO Opened file part-11785 for reading (11785/12288 files complete; 1686748101088/1758354243289 bytes complete)
+2024-04-17 08:52:41.122	packager-daemon INFO Opened file part-11784 for reading (11784/12288 files complete; 1686602703504/1758354243289 bytes complete)
+2024-04-17 08:52:40.888	packager-daemon INFO Have created 1687 output streams
+2024-04-17 08:52:40.557	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001686
+2024-04-17 08:52:38.990	packager-daemon INFO Opened file part-11783 for reading (11783/12288 files complete; 1686465887285/1758354243289 bytes complete)
+2024-04-17 08:52:36.476	packager-daemon INFO Opened file part-11782 for reading (11782/12288 files complete; 1686320595795/1758354243289 bytes complete)
+2024-04-17 08:52:33.853	packager-daemon INFO Opened file part-11781 for reading (11781/12288 files complete; 1686175297076/1758354243289 bytes complete)
+2024-04-17 08:52:31.481	packager-daemon INFO Opened file part-11780 for reading (11780/12288 files complete; 1686038670222/1758354243289 bytes complete)
+2024-04-17 08:52:28.968	packager-daemon INFO Opened file part-11779 for reading (11779/12288 files complete; 1685893398770/1758354243289 bytes complete)
+2024-04-17 08:52:25.741	packager-daemon INFO Opened file part-11778 for reading (11778/12288 files complete; 1685748033702/1758354243289 bytes complete)
+2024-04-17 08:52:23.326	packager-daemon INFO Opened file part-11777 for reading (11777/12288 files complete; 1685611344541/1758354243289 bytes complete)
+2024-04-17 08:52:22.793	packager-daemon INFO Have created 1686 output streams
+2024-04-17 08:52:22.481	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001685
+2024-04-17 08:52:20.151	packager-daemon INFO Opened file part-11776 for reading (11776/12288 files complete; 1685466070696/1758354243289 bytes complete)
+2024-04-17 08:52:17.713	packager-daemon INFO Opened file part-11775 for reading (11775/12288 files complete; 1685320703618/1758354243289 bytes complete)
+2024-04-17 08:52:15.171	packager-daemon INFO Opened file part-11774 for reading (11774/12288 files complete; 1685183174682/1758354243289 bytes complete)
+2024-04-17 08:52:12.621	packager-daemon INFO Opened file part-11773 for reading (11773/12288 files complete; 1685037934396/1758354243289 bytes complete)
+2024-04-17 08:52:10.074	packager-daemon INFO Opened file part-11772 for reading (11772/12288 files complete; 1684892635477/1758354243289 bytes complete)
+2024-04-17 08:52:08.228	packager-daemon INFO Opened file part-11771 for reading (11771/12288 files complete; 1684755418872/1758354243289 bytes complete)
+2024-04-17 08:52:05.508	packager-daemon INFO Opened file part-11770 for reading (11770/12288 files complete; 1684610074313/1758354243289 bytes complete)
+2024-04-17 08:52:04.699	packager-daemon INFO Have created 1685 output streams
+2024-04-17 08:52:04.374	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001684
+2024-04-17 08:52:02.562	packager-daemon INFO Opened file part-11769 for reading (11769/12288 files complete; 1684464785446/1758354243289 bytes complete)
+2024-04-17 08:51:59.608	packager-daemon INFO Opened file part-11768 for reading (11768/12288 files complete; 1684327441162/1758354243289 bytes complete)
+2024-04-17 08:51:56.139	packager-daemon INFO Opened file part-11767 for reading (11767/12288 files complete; 1684182227620/1758354243289 bytes complete)
+2024-04-17 08:51:53.217	packager-daemon INFO Opened file part-11766 for reading (11766/12288 files complete; 1684036896814/1758354243289 bytes complete)
+2024-04-17 08:51:50.721	packager-daemon INFO Opened file part-11765 for reading (11765/12288 files complete; 1683899426785/1758354243289 bytes complete)
+2024-04-17 08:51:48.168	packager-daemon INFO Opened file part-11764 for reading (11764/12288 files complete; 1683754276533/1758354243289 bytes complete)
+2024-04-17 08:51:45.370	packager-daemon INFO Opened file part-11763 for reading (11763/12288 files complete; 1683608894840/1758354243289 bytes complete)
+2024-04-17 08:51:45.009	packager-daemon INFO Have created 1684 output streams
+2024-04-17 08:51:44.697	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001683
+2024-04-17 08:51:42.571	packager-daemon INFO Opened file part-11762 for reading (11762/12288 files complete; 1683471624257/1758354243289 bytes complete)
+2024-04-17 08:51:39.319	packager-daemon INFO Opened file part-11761 for reading (11761/12288 files complete; 1683326442175/1758354243289 bytes complete)
+2024-04-17 08:51:35.055	packager-daemon INFO Opened file part-11760 for reading (11760/12288 files complete; 1683181071283/1758354243289 bytes complete)
+2024-04-17 08:51:32.268	packager-daemon INFO Opened file part-11759 for reading (11759/12288 files complete; 1683044195104/1758354243289 bytes complete)
+2024-04-17 08:51:29.804	packager-daemon INFO Opened file part-11758 for reading (11758/12288 files complete; 1682898860020/1758354243289 bytes complete)
+2024-04-17 08:51:27.510	packager-daemon INFO Opened file part-11757 for reading (11757/12288 files complete; 1682753566544/1758354243289 bytes complete)
+2024-04-17 08:51:25.108	packager-daemon INFO Opened file part-11756 for reading (11756/12288 files complete; 1682616139696/1758354243289 bytes complete)
+2024-04-17 08:51:24.709	packager-daemon INFO Have created 1683 output streams
+2024-04-17 08:51:24.390	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001682
+2024-04-17 08:51:22.392	packager-daemon INFO Opened file part-11755 for reading (11755/12288 files complete; 1682470954680/1758354243289 bytes complete)
+2024-04-17 08:51:20.018	packager-daemon INFO Opened file part-11754 for reading (11754/12288 files complete; 1682325587996/1758354243289 bytes complete)
+2024-04-17 08:51:18.080	packager-daemon INFO Opened file part-11753 for reading (11753/12288 files complete; 1682189357028/1758354243289 bytes complete)
+2024-04-17 08:51:15.477	packager-daemon INFO Opened file part-11752 for reading (11752/12288 files complete; 1682043987780/1758354243289 bytes complete)
+2024-04-17 08:51:13.006	packager-daemon INFO Opened file part-11751 for reading (11751/12288 files complete; 1681898693068/1758354243289 bytes complete)
+2024-04-17 08:51:08.897	packager-daemon INFO Opened file part-11750 for reading (11750/12288 files complete; 1681761734213/1758354243289 bytes complete)
+2024-04-17 08:51:06.229	packager-daemon INFO Opened file part-11749 for reading (11749/12288 files complete; 1681616400783/1758354243289 bytes complete)
+2024-04-17 08:51:05.809	packager-daemon INFO Have created 1682 output streams
+2024-04-17 08:51:05.454	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001681
+2024-04-17 08:51:03.426	packager-daemon INFO Opened file part-11748 for reading (11748/12288 files complete; 1681471058370/1758354243289 bytes complete)
+2024-04-17 08:51:01.063	packager-daemon INFO Opened file part-11747 for reading (11747/12288 files complete; 1681333909078/1758354243289 bytes complete)
+2024-04-17 08:50:59.076	packager-daemon INFO Opened file part-11746 for reading (11746/12288 files complete; 1681188723482/1758354243289 bytes complete)
+2024-04-17 08:50:56.534	packager-daemon INFO Opened file part-11745 for reading (11745/12288 files complete; 1681043372673/1758354243289 bytes complete)
+2024-04-17 08:50:54.266	packager-daemon INFO Opened file part-11744 for reading (11744/12288 files complete; 1680905412354/1758354243289 bytes complete)
+2024-04-17 08:50:51.657	packager-daemon INFO Opened file part-11743 for reading (11743/12288 files complete; 1680760047008/1758354243289 bytes complete)
+2024-04-17 08:50:48.739	packager-daemon INFO Opened file part-11742 for reading (11742/12288 files complete; 1680614770695/1758354243289 bytes complete)
+2024-04-17 08:50:48.362	packager-daemon INFO Have created 1681 output streams
+2024-04-17 08:50:47.993	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001680
+2024-04-17 08:50:46.129	packager-daemon INFO Opened file part-11741 for reading (11741/12288 files complete; 1680478432679/1758354243289 bytes complete)
+2024-04-17 08:50:43.572	packager-daemon INFO Opened file part-11740 for reading (11740/12288 files complete; 1680333097414/1758354243289 bytes complete)
+2024-04-17 08:50:41.578	packager-daemon INFO Opened file part-11739 for reading (11739/12288 files complete; 1680187758737/1758354243289 bytes complete)
+2024-04-17 08:50:39.126	packager-daemon INFO Opened file part-11738 for reading (11738/12288 files complete; 1680050892496/1758354243289 bytes complete)
+2024-04-17 08:50:36.781	packager-daemon INFO Opened file part-11737 for reading (11737/12288 files complete; 1679905620540/1758354243289 bytes complete)
+2024-04-17 08:50:34.321	packager-daemon INFO Opened file part-11736 for reading (11736/12288 files complete; 1679760230488/1758354243289 bytes complete)
+2024-04-17 08:50:31.960	packager-daemon INFO Opened file part-11735 for reading (11735/12288 files complete; 1679623573823/1758354243289 bytes complete)
+2024-04-17 08:50:31.474	packager-daemon INFO Have created 1680 output streams
+2024-04-17 08:50:31.110	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001679
+2024-04-17 08:50:29.623	packager-daemon INFO Opened file part-11734 for reading (11734/12288 files complete; 1679478240423/1758354243289 bytes complete)
+2024-04-17 08:50:26.956	packager-daemon INFO Opened file part-11733 for reading (11733/12288 files complete; 1679332933527/1758354243289 bytes complete)
+2024-04-17 08:50:24.546	packager-daemon INFO Opened file part-11732 for reading (11732/12288 files complete; 1679195940552/1758354243289 bytes complete)
+2024-04-17 08:50:21.934	packager-daemon INFO Opened file part-11731 for reading (11731/12288 files complete; 1679050698740/1758354243289 bytes complete)
+2024-04-17 08:50:19.395	packager-daemon INFO Opened file part-11730 for reading (11730/12288 files complete; 1678905362377/1758354243289 bytes complete)
+2024-04-17 08:50:17.422	packager-daemon INFO Opened file part-11729 for reading (11729/12288 files complete; 1678769069817/1758354243289 bytes complete)
+2024-04-17 08:50:14.834	packager-daemon INFO Opened file part-11728 for reading (11728/12288 files complete; 1678623786617/1758354243289 bytes complete)
+2024-04-17 08:50:13.896	packager-daemon INFO Have created 1679 output streams
+2024-04-17 08:50:13.571	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001678
+2024-04-17 08:50:12.143	packager-daemon INFO Opened file part-11727 for reading (11727/12288 files complete; 1678478498829/1758354243289 bytes complete)
+2024-04-17 08:50:09.830	packager-daemon INFO Opened file part-11726 for reading (11726/12288 files complete; 1678340880185/1758354243289 bytes complete)
+2024-04-17 08:50:07.317	packager-daemon INFO Opened file part-11725 for reading (11725/12288 files complete; 1678195651300/1758354243289 bytes complete)
+2024-04-17 08:50:04.877	packager-daemon INFO Opened file part-11724 for reading (11724/12288 files complete; 1678050326507/1758354243289 bytes complete)
+2024-04-17 08:50:02.358	packager-daemon INFO Opened file part-11723 for reading (11723/12288 files complete; 1677913596019/1758354243289 bytes complete)
+2024-04-17 08:49:59.913	packager-daemon INFO Opened file part-11722 for reading (11722/12288 files complete; 1677768223616/1758354243289 bytes complete)
+2024-04-17 08:49:57.242	packager-daemon INFO Opened file part-11721 for reading (11721/12288 files complete; 1677622933921/1758354243289 bytes complete)
+2024-04-17 08:49:56.732	packager-daemon INFO Have created 1678 output streams
+2024-04-17 08:49:56.409	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001677
+2024-04-17 08:49:54.666	packager-daemon INFO Opened file part-11720 for reading (11720/12288 files complete; 1677485730258/1758354243289 bytes complete)
+2024-04-17 08:49:52.133	packager-daemon INFO Opened file part-11719 for reading (11719/12288 files complete; 1677340559239/1758354243289 bytes complete)
+2024-04-17 08:49:50.004	packager-daemon INFO Opened file part-11718 for reading (11718/12288 files complete; 1677195226628/1758354243289 bytes complete)
+2024-04-17 08:49:47.523	packager-daemon INFO Opened file part-11717 for reading (11717/12288 files complete; 1677058118853/1758354243289 bytes complete)
+2024-04-17 08:49:44.933	packager-daemon INFO Opened file part-11716 for reading (11716/12288 files complete; 1676912783321/1758354243289 bytes complete)
+2024-04-17 08:49:42.439	packager-daemon INFO Opened file part-11715 for reading (11715/12288 files complete; 1676767462712/1758354243289 bytes complete)
+2024-04-17 08:49:40.020	packager-daemon INFO Opened file part-11714 for reading (11714/12288 files complete; 1676630176650/1758354243289 bytes complete)
+2024-04-17 08:49:39.404	packager-daemon INFO Have created 1677 output streams
+2024-04-17 08:49:39.100	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001676
+2024-04-17 08:49:37.717	packager-daemon INFO Opened file part-11713 for reading (11713/12288 files complete; 1676484855614/1758354243289 bytes complete)
+2024-04-17 08:49:35.034	packager-daemon INFO Opened file part-11712 for reading (11712/12288 files complete; 1676339553763/1758354243289 bytes complete)
+2024-04-17 08:49:32.407	packager-daemon INFO Opened file part-11711 for reading (11711/12288 files complete; 1676202528588/1758354243289 bytes complete)
+2024-04-17 08:49:29.838	packager-daemon INFO Opened file part-11710 for reading (11710/12288 files complete; 1676057174991/1758354243289 bytes complete)
+2024-04-17 08:49:27.409	packager-daemon INFO Opened file part-11709 for reading (11709/12288 files complete; 1675911875437/1758354243289 bytes complete)
+2024-04-17 08:49:25.141	packager-daemon INFO Opened file part-11708 for reading (11708/12288 files complete; 1675774316022/1758354243289 bytes complete)
+2024-04-17 08:49:22.692	packager-daemon INFO Opened file part-11707 for reading (11707/12288 files complete; 1675628967549/1758354243289 bytes complete)
+2024-04-17 08:49:22.111	packager-daemon INFO Have created 1676 output streams
+2024-04-17 08:49:21.782	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001675
+2024-04-17 08:49:19.901	packager-daemon INFO Opened file part-11706 for reading (11706/12288 files complete; 1675483661845/1758354243289 bytes complete)
+2024-04-17 08:49:17.577	packager-daemon INFO Opened file part-11705 for reading (11705/12288 files complete; 1675346722154/1758354243289 bytes complete)
+2024-04-17 08:49:15.591	packager-daemon INFO Opened file part-11704 for reading (11704/12288 files complete; 1675201545006/1758354243289 bytes complete)
+2024-04-17 08:49:12.986	packager-daemon INFO Opened file part-11703 for reading (11703/12288 files complete; 1675056187181/1758354243289 bytes complete)
+2024-04-17 08:49:10.704	packager-daemon INFO Opened file part-11702 for reading (11702/12288 files complete; 1674919415763/1758354243289 bytes complete)
+2024-04-17 08:49:08.236	packager-daemon INFO Opened file part-11701 for reading (11701/12288 files complete; 1674774181250/1758354243289 bytes complete)
+2024-04-17 08:49:06.052	packager-daemon INFO Opened file part-11700 for reading (11700/12288 files complete; 1674628846311/1758354243289 bytes complete)
+2024-04-17 08:49:05.096	packager-daemon INFO Have created 1675 output streams
+2024-04-17 08:49:04.759	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001674
+2024-04-17 08:49:02.952	packager-daemon INFO Opened file part-11699 for reading (11699/12288 files complete; 1674491528619/1758354243289 bytes complete)
+2024-04-17 08:49:00.396	packager-daemon INFO Opened file part-11698 for reading (11698/12288 files complete; 1674346219194/1758354243289 bytes complete)
+2024-04-17 08:48:57.757	packager-daemon INFO Opened file part-11697 for reading (11697/12288 files complete; 1674200912612/1758354243289 bytes complete)
+2024-04-17 08:48:55.984	packager-daemon INFO Opened file part-11696 for reading (11696/12288 files complete; 1674063737502/1758354243289 bytes complete)
+2024-04-17 08:48:53.337	packager-daemon INFO Opened file part-11695 for reading (11695/12288 files complete; 1673918437282/1758354243289 bytes complete)
+2024-04-17 08:48:50.910	packager-daemon INFO Opened file part-11694 for reading (11694/12288 files complete; 1673773124424/1758354243289 bytes complete)
+2024-04-17 08:48:48.417	packager-daemon INFO Opened file part-11693 for reading (11693/12288 files complete; 1673636750344/1758354243289 bytes complete)
+2024-04-17 08:48:47.732	packager-daemon INFO Have created 1674 output streams
+2024-04-17 08:48:47.411	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001673
+2024-04-17 08:48:45.984	packager-daemon INFO Opened file part-11692 for reading (11692/12288 files complete; 1673491495540/1758354243289 bytes complete)
+2024-04-17 08:48:43.451	packager-daemon INFO Opened file part-11691 for reading (11691/12288 files complete; 1673346157631/1758354243289 bytes complete)
+2024-04-17 08:48:41.006	packager-daemon INFO Opened file part-11690 for reading (11690/12288 files complete; 1673208398137/1758354243289 bytes complete)
+2024-04-17 08:48:38.656	packager-daemon INFO Opened file part-11689 for reading (11689/12288 files complete; 1673063214639/1758354243289 bytes complete)
+2024-04-17 08:48:36.542	packager-daemon INFO Opened file part-11688 for reading (11688/12288 files complete; 1672917873409/1758354243289 bytes complete)
+2024-04-17 08:48:33.991	packager-daemon INFO Opened file part-11687 for reading (11687/12288 files complete; 1672781077124/1758354243289 bytes complete)
+2024-04-17 08:48:30.191	packager-daemon INFO Opened file part-11686 for reading (11686/12288 files complete; 1672635804050/1758354243289 bytes complete)
+2024-04-17 08:48:29.467	packager-daemon INFO Have created 1673 output streams
+2024-04-17 08:48:29.112	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001672
+2024-04-17 08:48:27.286	packager-daemon INFO Opened file part-11685 for reading (11685/12288 files complete; 1672490450068/1758354243289 bytes complete)
+2024-04-17 08:48:25.239	packager-daemon INFO Opened file part-11684 for reading (11684/12288 files complete; 1672352980517/1758354243289 bytes complete)
+2024-04-17 08:48:22.546	packager-daemon INFO Opened file part-11683 for reading (11683/12288 files complete; 1672207802967/1758354243289 bytes complete)
+2024-04-17 08:48:19.845	packager-daemon INFO Opened file part-11682 for reading (11682/12288 files complete; 1672062443180/1758354243289 bytes complete)
+2024-04-17 08:48:17.181	packager-daemon INFO Opened file part-11681 for reading (11681/12288 files complete; 1671925907847/1758354243289 bytes complete)
+2024-04-17 08:48:14.375	packager-daemon INFO Opened file part-11680 for reading (11680/12288 files complete; 1671780545530/1758354243289 bytes complete)
+2024-04-17 08:48:11.674	packager-daemon INFO Opened file part-11679 for reading (11679/12288 files complete; 1671635257370/1758354243289 bytes complete)
+2024-04-17 08:48:10.951	packager-daemon INFO Have created 1672 output streams
+2024-04-17 08:48:10.614	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001671
+2024-04-17 08:48:08.771	packager-daemon INFO Opened file part-11678 for reading (11678/12288 files complete; 1671497636100/1758354243289 bytes complete)
+2024-04-17 08:48:05.516	packager-daemon INFO Opened file part-11677 for reading (11677/12288 files complete; 1671352329847/1758354243289 bytes complete)
+2024-04-17 08:48:03.326	packager-daemon INFO Opened file part-11676 for reading (11676/12288 files complete; 1671206996506/1758354243289 bytes complete)
+2024-04-17 08:48:00.834	packager-daemon INFO Opened file part-11675 for reading (11675/12288 files complete; 1671069589975/1758354243289 bytes complete)
+2024-04-17 08:47:58.010	packager-daemon INFO Opened file part-11674 for reading (11674/12288 files complete; 1670924275300/1758354243289 bytes complete)
+2024-04-17 08:47:55.696	packager-daemon INFO Opened file part-11673 for reading (11673/12288 files complete; 1670778949763/1758354243289 bytes complete)
+2024-04-17 08:47:53.049	packager-daemon INFO Opened file part-11672 for reading (11672/12288 files complete; 1670641742029/1758354243289 bytes complete)
+2024-04-17 08:47:52.289	packager-daemon INFO Have created 1671 output streams
+2024-04-17 08:47:51.523	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001670
+2024-04-17 08:47:50.350	packager-daemon INFO Opened file part-11671 for reading (11671/12288 files complete; 1670496540097/1758354243289 bytes complete)
+2024-04-17 08:47:47.748	packager-daemon INFO Opened file part-11670 for reading (11670/12288 files complete; 1670351146405/1758354243289 bytes complete)
+2024-04-17 08:47:45.393	packager-daemon INFO Opened file part-11669 for reading (11669/12288 files complete; 1670213505915/1758354243289 bytes complete)
+2024-04-17 08:47:42.817	packager-daemon INFO Opened file part-11668 for reading (11668/12288 files complete; 1670068281340/1758354243289 bytes complete)
+2024-04-17 08:47:40.184	packager-daemon INFO Opened file part-11667 for reading (11667/12288 files complete; 1669922909466/1758354243289 bytes complete)
+2024-04-17 08:47:38.192	packager-daemon INFO Opened file part-11666 for reading (11666/12288 files complete; 1669785391020/1758354243289 bytes complete)
+2024-04-17 08:47:35.638	packager-daemon INFO Opened file part-11665 for reading (11665/12288 files complete; 1669640037959/1758354243289 bytes complete)
+2024-04-17 08:47:34.201	packager-daemon INFO Have created 1670 output streams
+2024-04-17 08:47:33.889	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001669
+2024-04-17 08:47:32.554	packager-daemon INFO Opened file part-11664 for reading (11664/12288 files complete; 1669494743304/1758354243289 bytes complete)
+2024-04-17 08:47:30.157	packager-daemon INFO Opened file part-11663 for reading (11663/12288 files complete; 1669357698497/1758354243289 bytes complete)
+2024-04-17 08:47:28.018	packager-daemon INFO Opened file part-11662 for reading (11662/12288 files complete; 1669212520072/1758354243289 bytes complete)
+2024-04-17 08:47:25.651	packager-daemon INFO Opened file part-11661 for reading (11661/12288 files complete; 1669067157213/1758354243289 bytes complete)
+2024-04-17 08:47:22.199	packager-daemon INFO Opened file part-11660 for reading (11660/12288 files complete; 1668929794844/1758354243289 bytes complete)
+2024-04-17 08:47:19.374	packager-daemon INFO Opened file part-11659 for reading (11659/12288 files complete; 1668784571598/1758354243289 bytes complete)
+2024-04-17 08:47:16.693	packager-daemon INFO Opened file part-11658 for reading (11658/12288 files complete; 1668639277405/1758354243289 bytes complete)
+2024-04-17 08:47:15.961	packager-daemon INFO Have created 1669 output streams
+2024-04-17 08:47:15.630	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001668
+2024-04-17 08:47:13.881	packager-daemon INFO Opened file part-11657 for reading (11657/12288 files complete; 1668502530488/1758354243289 bytes complete)
+2024-04-17 08:47:11.827	packager-daemon INFO Opened file part-11656 for reading (11656/12288 files complete; 1668357188749/1758354243289 bytes complete)
+2024-04-17 08:47:09.223	packager-daemon INFO Opened file part-11655 for reading (11655/12288 files complete; 1668211890348/1758354243289 bytes complete)
+2024-04-17 08:47:06.607	packager-daemon INFO Opened file part-11654 for reading (11654/12288 files complete; 1668073926931/1758354243289 bytes complete)
+2024-04-17 08:47:04.546	packager-daemon INFO Opened file part-11653 for reading (11653/12288 files complete; 1667928746732/1758354243289 bytes complete)
+2024-04-17 08:47:02.045	packager-daemon INFO Opened file part-11652 for reading (11652/12288 files complete; 1667783397059/1758354243289 bytes complete)
+2024-04-17 08:46:59.736	packager-daemon INFO Opened file part-11651 for reading (11651/12288 files complete; 1667646742227/1758354243289 bytes complete)
+2024-04-17 08:46:58.798	packager-daemon INFO Have created 1668 output streams
+2024-04-17 08:46:58.490	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001667
+2024-04-17 08:46:57.008	packager-daemon INFO Opened file part-11650 for reading (11650/12288 files complete; 1667501534881/1758354243289 bytes complete)
+2024-04-17 08:46:54.811	packager-daemon INFO Opened file part-11649 for reading (11649/12288 files complete; 1667356168374/1758354243289 bytes complete)
+2024-04-17 08:46:52.612	packager-daemon INFO Opened file part-11648 for reading (11648/12288 files complete; 1667220029544/1758354243289 bytes complete)
+2024-04-17 08:46:50.156	packager-daemon INFO Opened file part-11647 for reading (11647/12288 files complete; 1667074682499/1758354243289 bytes complete)
+2024-04-17 08:46:47.778	packager-daemon INFO Opened file part-11646 for reading (11646/12288 files complete; 1666929387427/1758354243289 bytes complete)
+2024-04-17 08:46:45.291	packager-daemon INFO Opened file part-11645 for reading (11645/12288 files complete; 1666792407812/1758354243289 bytes complete)
+2024-04-17 08:46:42.668	packager-daemon INFO Opened file part-11644 for reading (11644/12288 files complete; 1666647147541/1758354243289 bytes complete)
+2024-04-17 08:46:41.830	packager-daemon INFO Have created 1667 output streams
+2024-04-17 08:46:41.525	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001666
+2024-04-17 08:46:40.342	packager-daemon INFO Opened file part-11643 for reading (11643/12288 files complete; 1666501807840/1758354243289 bytes complete)
+2024-04-17 08:46:38.010	packager-daemon INFO Opened file part-11642 for reading (11642/12288 files complete; 1666364816571/1758354243289 bytes complete)
+2024-04-17 08:46:35.633	packager-daemon INFO Opened file part-11641 for reading (11641/12288 files complete; 1666219643578/1758354243289 bytes complete)
+2024-04-17 08:46:33.655	packager-daemon INFO Opened file part-11640 for reading (11640/12288 files complete; 1666074284475/1758354243289 bytes complete)
+2024-04-17 08:46:31.377	packager-daemon INFO Opened file part-11639 for reading (11639/12288 files complete; 1665936409585/1758354243289 bytes complete)
+2024-04-17 08:46:28.860	packager-daemon INFO Opened file part-11638 for reading (11638/12288 files complete; 1665791136727/1758354243289 bytes complete)
+2024-04-17 08:46:26.813	packager-daemon INFO Opened file part-11637 for reading (11637/12288 files complete; 1665645798167/1758354243289 bytes complete)
+2024-04-17 08:46:25.572	packager-daemon INFO Have created 1666 output streams
+2024-04-17 08:46:25.254	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001665
+2024-04-17 08:46:24.189	packager-daemon INFO Opened file part-11636 for reading (11636/12288 files complete; 1665508918533/1758354243289 bytes complete)
+2024-04-17 08:46:21.641	packager-daemon INFO Opened file part-11635 for reading (11635/12288 files complete; 1665363651718/1758354243289 bytes complete)
+2024-04-17 08:46:19.592	packager-daemon INFO Opened file part-11634 for reading (11634/12288 files complete; 1665218277896/1758354243289 bytes complete)
+2024-04-17 08:46:17.020	packager-daemon INFO Opened file part-11633 for reading (11633/12288 files complete; 1665080918993/1758354243289 bytes complete)
+2024-04-17 08:46:14.471	packager-daemon INFO Opened file part-11632 for reading (11632/12288 files complete; 1664935634575/1758354243289 bytes complete)
+2024-04-17 08:46:11.916	packager-daemon INFO Opened file part-11631 for reading (11631/12288 files complete; 1664790312242/1758354243289 bytes complete)
+2024-04-17 08:46:09.076	packager-daemon INFO Opened file part-11630 for reading (11630/12288 files complete; 1664652407515/1758354243289 bytes complete)
+2024-04-17 08:46:07.994	packager-daemon INFO Have created 1665 output streams
+2024-04-17 08:46:07.716	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001664
+2024-04-17 08:46:06.357	packager-daemon INFO Opened file part-11629 for reading (11629/12288 files complete; 1664507063036/1758354243289 bytes complete)
+2024-04-17 08:46:04.161	packager-daemon INFO Opened file part-11628 for reading (11628/12288 files complete; 1664361780555/1758354243289 bytes complete)
+2024-04-17 08:46:00.926	packager-daemon INFO Opened file part-11627 for reading (11627/12288 files complete; 1664225027030/1758354243289 bytes complete)
+2024-04-17 08:45:58.237	packager-daemon INFO Opened file part-11626 for reading (11626/12288 files complete; 1664079746827/1758354243289 bytes complete)
+2024-04-17 08:45:56.259	packager-daemon INFO Opened file part-11625 for reading (11625/12288 files complete; 1663934425228/1758354243289 bytes complete)
+2024-04-17 08:45:53.788	packager-daemon INFO Opened file part-11624 for reading (11624/12288 files complete; 1663797269521/1758354243289 bytes complete)
+2024-04-17 08:45:51.780	packager-daemon INFO Opened file part-11623 for reading (11623/12288 files complete; 1663651965633/1758354243289 bytes complete)
+2024-04-17 08:45:49.692	packager-daemon INFO Have created 1664 output streams
+2024-04-17 08:45:49.335	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001663
+2024-04-17 08:45:47.954	packager-daemon INFO Opened file part-11622 for reading (11622/12288 files complete; 1663506661951/1758354243289 bytes complete)
+2024-04-17 08:45:44.993	packager-daemon INFO Opened file part-11621 for reading (11621/12288 files complete; 1663369267476/1758354243289 bytes complete)
+2024-04-17 08:45:40.745	packager-daemon INFO Opened file part-11620 for reading (11620/12288 files complete; 1663224033401/1758354243289 bytes complete)
+2024-04-17 08:45:38.342	packager-daemon INFO Opened file part-11619 for reading (11619/12288 files complete; 1663078703316/1758354243289 bytes complete)
+2024-04-17 08:45:35.812	packager-daemon INFO Opened file part-11618 for reading (11618/12288 files complete; 1662941562901/1758354243289 bytes complete)
+2024-04-17 08:45:32.966	packager-daemon INFO Opened file part-11617 for reading (11617/12288 files complete; 1662796208719/1758354243289 bytes complete)
+2024-04-17 08:45:30.566	packager-daemon INFO Opened file part-11616 for reading (11616/12288 files complete; 1662650973959/1758354243289 bytes complete)
+2024-04-17 08:45:29.551	packager-daemon INFO Have created 1663 output streams
+2024-04-17 08:45:29.229	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001662
+2024-04-17 08:45:27.911	packager-daemon INFO Opened file part-11615 for reading (11615/12288 files complete; 1662513303211/1758354243289 bytes complete)
+2024-04-17 08:45:24.841	packager-daemon INFO Opened file part-11614 for reading (11614/12288 files complete; 1662367956904/1758354243289 bytes complete)
+2024-04-17 08:45:21.992	packager-daemon INFO Opened file part-11613 for reading (11613/12288 files complete; 1662222616871/1758354243289 bytes complete)
+2024-04-17 08:45:19.819	packager-daemon INFO Opened file part-11612 for reading (11612/12288 files complete; 1662084906485/1758354243289 bytes complete)
+2024-04-17 08:45:17.234	packager-daemon INFO Opened file part-11611 for reading (11611/12288 files complete; 1661939578915/1758354243289 bytes complete)
+2024-04-17 08:45:14.778	packager-daemon INFO Opened file part-11610 for reading (11610/12288 files complete; 1661794255226/1758354243289 bytes complete)
+2024-04-17 08:45:12.971	packager-daemon INFO Opened file part-11609 for reading (11609/12288 files complete; 1661656904603/1758354243289 bytes complete)
+2024-04-17 08:45:11.539	packager-daemon INFO Have created 1662 output streams
+2024-04-17 08:45:11.151	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001661
+2024-04-17 08:45:09.857	packager-daemon INFO Opened file part-11608 for reading (11608/12288 files complete; 1661511597010/1758354243289 bytes complete)
+2024-04-17 08:45:07.450	packager-daemon INFO Opened file part-11607 for reading (11607/12288 files complete; 1661366262886/1758354243289 bytes complete)
+2024-04-17 08:45:05.593	packager-daemon INFO Opened file part-11606 for reading (11606/12288 files complete; 1661228672540/1758354243289 bytes complete)
+2024-04-17 08:45:03.167	packager-daemon INFO Opened file part-11605 for reading (11605/12288 files complete; 1661083468060/1758354243289 bytes complete)
+2024-04-17 08:45:00.509	packager-daemon INFO Opened file part-11604 for reading (11604/12288 files complete; 1660938111739/1758354243289 bytes complete)
+2024-04-17 08:44:58.286	packager-daemon INFO Opened file part-11603 for reading (11603/12288 files complete; 1660801820595/1758354243289 bytes complete)
+2024-04-17 08:44:55.336	packager-daemon INFO Opened file part-11602 for reading (11602/12288 files complete; 1660656644577/1758354243289 bytes complete)
+2024-04-17 08:44:54.237	packager-daemon INFO Have created 1661 output streams
+2024-04-17 08:44:53.941	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001660
+2024-04-17 08:44:52.919	packager-daemon INFO Opened file part-11601 for reading (11601/12288 files complete; 1660511309950/1758354243289 bytes complete)
+2024-04-17 08:44:50.507	packager-daemon INFO Opened file part-11600 for reading (11600/12288 files complete; 1660374721141/1758354243289 bytes complete)
+2024-04-17 08:44:47.514	packager-daemon INFO Opened file part-11599 for reading (11599/12288 files complete; 1660229377885/1758354243289 bytes complete)
+2024-04-17 08:44:45.257	packager-daemon INFO Opened file part-11598 for reading (11598/12288 files complete; 1660084062207/1758354243289 bytes complete)
+2024-04-17 08:44:41.686	packager-daemon INFO Opened file part-11597 for reading (11597/12288 files complete; 1659946809440/1758354243289 bytes complete)
+2024-04-17 08:44:39.407	packager-daemon INFO Opened file part-11596 for reading (11596/12288 files complete; 1659801659806/1758354243289 bytes complete)
+2024-04-17 08:44:36.623	packager-daemon INFO Opened file part-11595 for reading (11595/12288 files complete; 1659656265215/1758354243289 bytes complete)
+2024-04-17 08:44:35.450	packager-daemon INFO Have created 1660 output streams
+2024-04-17 08:44:35.160	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001659
+2024-04-17 08:44:33.762	packager-daemon INFO Opened file part-11594 for reading (11594/12288 files complete; 1659519760348/1758354243289 bytes complete)
+2024-04-17 08:44:31.049	packager-daemon INFO Opened file part-11593 for reading (11593/12288 files complete; 1659374484795/1758354243289 bytes complete)
+2024-04-17 08:44:28.144	packager-daemon INFO Opened file part-11592 for reading (11592/12288 files complete; 1659229122520/1758354243289 bytes complete)
+2024-04-17 08:44:25.143	packager-daemon INFO Opened file part-11591 for reading (11591/12288 files complete; 1659092352393/1758354243289 bytes complete)
+2024-04-17 08:44:22.755	packager-daemon INFO Opened file part-11590 for reading (11590/12288 files complete; 1658947021367/1758354243289 bytes complete)
+2024-04-17 08:44:19.836	packager-daemon INFO Opened file part-11589 for reading (11589/12288 files complete; 1658801725217/1758354243289 bytes complete)
+2024-04-17 08:44:17.829	packager-daemon INFO Opened file part-11588 for reading (11588/12288 files complete; 1658665196365/1758354243289 bytes complete)
+2024-04-17 08:44:16.007	packager-daemon INFO Have created 1659 output streams
+2024-04-17 08:44:15.708	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001658
+2024-04-17 08:44:14.789	packager-daemon INFO Opened file part-11587 for reading (11587/12288 files complete; 1658519975070/1758354243289 bytes complete)
+2024-04-17 08:44:12.260	packager-daemon INFO Opened file part-11586 for reading (11586/12288 files complete; 1658374616699/1758354243289 bytes complete)
+2024-04-17 08:44:10.000	packager-daemon INFO Opened file part-11585 for reading (11585/12288 files complete; 1658238241708/1758354243289 bytes complete)
+2024-04-17 08:44:07.229	packager-daemon INFO Opened file part-11584 for reading (11584/12288 files complete; 1658093091414/1758354243289 bytes complete)
+2024-04-17 08:44:04.994	packager-daemon INFO Opened file part-11583 for reading (11583/12288 files complete; 1657947703111/1758354243289 bytes complete)
+2024-04-17 08:44:02.334	packager-daemon INFO Opened file part-11582 for reading (11582/12288 files complete; 1657810820015/1758354243289 bytes complete)
+2024-04-17 08:43:59.754	packager-daemon INFO Opened file part-11581 for reading (11581/12288 files complete; 1657665494361/1758354243289 bytes complete)
+2024-04-17 08:43:58.582	packager-daemon INFO Have created 1658 output streams
+2024-04-17 08:43:58.238	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001657
+2024-04-17 08:43:57.151	packager-daemon INFO Opened file part-11580 for reading (11580/12288 files complete; 1657520199318/1758354243289 bytes complete)
+2024-04-17 08:43:54.693	packager-daemon INFO Opened file part-11579 for reading (11579/12288 files complete; 1657383146492/1758354243289 bytes complete)
+2024-04-17 08:43:52.606	packager-daemon INFO Opened file part-11578 for reading (11578/12288 files complete; 1657237944449/1758354243289 bytes complete)
+2024-04-17 08:43:48.976	packager-daemon INFO Opened file part-11577 for reading (11577/12288 files complete; 1657092586386/1758354243289 bytes complete)
+2024-04-17 08:43:44.612	packager-daemon INFO Opened file part-11576 for reading (11576/12288 files complete; 1656954312702/1758354243289 bytes complete)
+2024-04-17 08:43:42.359	packager-daemon INFO Opened file part-11575 for reading (11575/12288 files complete; 1656809171557/1758354243289 bytes complete)
+2024-04-17 08:43:39.850	packager-daemon INFO Opened file part-11574 for reading (11574/12288 files complete; 1656663750766/1758354243289 bytes complete)
+2024-04-17 08:43:38.438	packager-daemon INFO Have created 1657 output streams
+2024-04-17 08:43:38.109	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001656
+2024-04-17 08:43:36.280	packager-daemon INFO Opened file part-11573 for reading (11573/12288 files complete; 1656526295076/1758354243289 bytes complete)
+2024-04-17 08:43:33.333	packager-daemon INFO Opened file part-11572 for reading (11572/12288 files complete; 1656381111039/1758354243289 bytes complete)
+2024-04-17 08:43:30.892	packager-daemon INFO Opened file part-11571 for reading (11571/12288 files complete; 1656235728806/1758354243289 bytes complete)
+2024-04-17 08:43:28.693	packager-daemon INFO Opened file part-11570 for reading (11570/12288 files complete; 1656098224050/1758354243289 bytes complete)
+2024-04-17 08:43:25.781	packager-daemon INFO Opened file part-11569 for reading (11569/12288 files complete; 1655953013504/1758354243289 bytes complete)
+2024-04-17 08:43:23.757	packager-daemon INFO Opened file part-11568 for reading (11568/12288 files complete; 1655807668477/1758354243289 bytes complete)
+2024-04-17 08:43:21.497	packager-daemon INFO Opened file part-11567 for reading (11567/12288 files complete; 1655670537564/1758354243289 bytes complete)
+2024-04-17 08:43:20.305	packager-daemon INFO Have created 1656 output streams
+2024-04-17 08:43:19.992	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001655
+2024-04-17 08:43:19.244	packager-daemon INFO Opened file part-11566 for reading (11566/12288 files complete; 1655525375785/1758354243289 bytes complete)
+2024-04-17 08:43:16.948	packager-daemon INFO Opened file part-11565 for reading (11565/12288 files complete; 1655379997837/1758354243289 bytes complete)
+2024-04-17 08:43:14.283	packager-daemon INFO Opened file part-11564 for reading (11564/12288 files complete; 1655243334476/1758354243289 bytes complete)
+2024-04-17 08:43:12.361	packager-daemon INFO Opened file part-11563 for reading (11563/12288 files complete; 1655098034278/1758354243289 bytes complete)
+2024-04-17 08:43:09.737	packager-daemon INFO Opened file part-11562 for reading (11562/12288 files complete; 1654952735175/1758354243289 bytes complete)
+2024-04-17 08:43:07.868	packager-daemon INFO Opened file part-11561 for reading (11561/12288 files complete; 1654814826663/1758354243289 bytes complete)
+2024-04-17 08:43:05.290	packager-daemon INFO Opened file part-11560 for reading (11560/12288 files complete; 1654669552855/1758354243289 bytes complete)
+2024-04-17 08:43:04.033	packager-daemon INFO Have created 1655 output streams
+2024-04-17 08:43:03.696	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001654
+2024-04-17 08:43:02.748	packager-daemon INFO Opened file part-11559 for reading (11559/12288 files complete; 1654524275792/1758354243289 bytes complete)
+2024-04-17 08:43:00.434	packager-daemon INFO Opened file part-11558 for reading (11558/12288 files complete; 1654388532478/1758354243289 bytes complete)
+2024-04-17 08:42:57.791	packager-daemon INFO Opened file part-11557 for reading (11557/12288 files complete; 1654243194511/1758354243289 bytes complete)
+2024-04-17 08:42:55.426	packager-daemon INFO Opened file part-11556 for reading (11556/12288 files complete; 1654097847628/1758354243289 bytes complete)
+2024-04-17 08:42:53.000	packager-daemon INFO Opened file part-11555 for reading (11555/12288 files complete; 1653960828320/1758354243289 bytes complete)
+2024-04-17 08:42:50.978	packager-daemon INFO Opened file part-11554 for reading (11554/12288 files complete; 1653815712289/1758354243289 bytes complete)
+2024-04-17 08:42:48.434	packager-daemon INFO Opened file part-11553 for reading (11553/12288 files complete; 1653670306115/1758354243289 bytes complete)
+2024-04-17 08:42:47.164	packager-daemon INFO Have created 1654 output streams
+2024-04-17 08:42:46.864	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001653
+2024-04-17 08:42:46.255	packager-daemon INFO Opened file part-11552 for reading (11552/12288 files complete; 1653533023343/1758354243289 bytes complete)
+2024-04-17 08:42:43.879	packager-daemon INFO Opened file part-11551 for reading (11551/12288 files complete; 1653387675003/1758354243289 bytes complete)
+2024-04-17 08:42:41.427	packager-daemon INFO Opened file part-11550 for reading (11550/12288 files complete; 1653242401626/1758354243289 bytes complete)
+2024-04-17 08:42:39.055	packager-daemon INFO Opened file part-11549 for reading (11549/12288 files complete; 1653105611588/1758354243289 bytes complete)
+2024-04-17 08:42:36.713	packager-daemon INFO Opened file part-11548 for reading (11548/12288 files complete; 1652960392626/1758354243289 bytes complete)
+2024-04-17 08:42:34.814	packager-daemon INFO Opened file part-11547 for reading (11547/12288 files complete; 1652815066463/1758354243289 bytes complete)
+2024-04-17 08:42:32.311	packager-daemon INFO Opened file part-11546 for reading (11546/12288 files complete; 1652678586799/1758354243289 bytes complete)
+2024-04-17 08:42:31.034	packager-daemon INFO Have created 1653 output streams
+2024-04-17 08:42:30.713	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001652
+2024-04-17 08:42:29.894	packager-daemon INFO Opened file part-11545 for reading (11545/12288 files complete; 1652533222691/1758354243289 bytes complete)
+2024-04-17 08:42:27.435	packager-daemon INFO Opened file part-11544 for reading (11544/12288 files complete; 1652387911845/1758354243289 bytes complete)
+2024-04-17 08:42:22.432	packager-daemon INFO Opened file part-11543 for reading (11543/12288 files complete; 1652250141998/1758354243289 bytes complete)
+2024-04-17 08:42:19.865	packager-daemon INFO Opened file part-11542 for reading (11542/12288 files complete; 1652104789301/1758354243289 bytes complete)
+2024-04-17 08:42:17.261	packager-daemon INFO Opened file part-11541 for reading (11541/12288 files complete; 1651959499798/1758354243289 bytes complete)
+2024-04-17 08:42:15.085	packager-daemon INFO Opened file part-11540 for reading (11540/12288 files complete; 1651822385949/1758354243289 bytes complete)
+2024-04-17 08:42:12.483	packager-daemon INFO Opened file part-11539 for reading (11539/12288 files complete; 1651677020850/1758354243289 bytes complete)
+2024-04-17 08:42:11.189	packager-daemon INFO Have created 1652 output streams
+2024-04-17 08:42:10.830	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001651
+2024-04-17 08:42:10.206	packager-daemon INFO Opened file part-11538 for reading (11538/12288 files complete; 1651531738815/1758354243289 bytes complete)
+2024-04-17 08:42:07.624	packager-daemon INFO Opened file part-11537 for reading (11537/12288 files complete; 1651394140665/1758354243289 bytes complete)
+2024-04-17 08:42:05.625	packager-daemon INFO Opened file part-11536 for reading (11536/12288 files complete; 1651248844076/1758354243289 bytes complete)
+2024-04-17 08:42:03.114	packager-daemon INFO Opened file part-11535 for reading (11535/12288 files complete; 1651103490849/1758354243289 bytes complete)
+2024-04-17 08:42:01.299	packager-daemon INFO Opened file part-11534 for reading (11534/12288 files complete; 1650966420781/1758354243289 bytes complete)
+2024-04-17 08:41:58.644	packager-daemon INFO Opened file part-11533 for reading (11533/12288 files complete; 1650821170461/1758354243289 bytes complete)
+2024-04-17 08:41:55.808	packager-daemon INFO Opened file part-11532 for reading (11532/12288 files complete; 1650675798057/1758354243289 bytes complete)
+2024-04-17 08:41:54.489	packager-daemon INFO Have created 1651 output streams
+2024-04-17 08:41:54.205	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001650
+2024-04-17 08:41:53.732	packager-daemon INFO Opened file part-11531 for reading (11531/12288 files complete; 1650538431353/1758354243289 bytes complete)
+2024-04-17 08:41:51.247	packager-daemon INFO Opened file part-11530 for reading (11530/12288 files complete; 1650393108937/1758354243289 bytes complete)
+2024-04-17 08:41:48.416	packager-daemon INFO Opened file part-11529 for reading (11529/12288 files complete; 1650247795671/1758354243289 bytes complete)
+2024-04-17 08:41:45.891	packager-daemon INFO Opened file part-11528 for reading (11528/12288 files complete; 1650110675101/1758354243289 bytes complete)
+2024-04-17 08:41:43.720	packager-daemon INFO Opened file part-11527 for reading (11527/12288 files complete; 1649965307752/1758354243289 bytes complete)
+2024-04-17 08:41:40.996	packager-daemon INFO Opened file part-11526 for reading (11526/12288 files complete; 1649820010779/1758354243289 bytes complete)
+2024-04-17 08:41:39.033	packager-daemon INFO Opened file part-11525 for reading (11525/12288 files complete; 1649682492746/1758354243289 bytes complete)
+2024-04-17 08:41:37.087	packager-daemon INFO Have created 1650 output streams
+2024-04-17 08:41:36.724	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001649
+2024-04-17 08:41:35.958	packager-daemon INFO Opened file part-11524 for reading (11524/12288 files complete; 1649537207117/1758354243289 bytes complete)
+2024-04-17 08:41:33.489	packager-daemon INFO Opened file part-11523 for reading (11523/12288 files complete; 1649391876196/1758354243289 bytes complete)
+2024-04-17 08:41:31.047	packager-daemon INFO Opened file part-11522 for reading (11522/12288 files complete; 1649254078414/1758354243289 bytes complete)
+2024-04-17 08:41:28.311	packager-daemon INFO Opened file part-11521 for reading (11521/12288 files complete; 1649108903343/1758354243289 bytes complete)
+2024-04-17 08:41:25.754	packager-daemon INFO Opened file part-11520 for reading (11520/12288 files complete; 1648963511263/1758354243289 bytes complete)
+2024-04-17 08:41:23.129	packager-daemon INFO Opened file part-11519 for reading (11519/12288 files complete; 1648825694553/1758354243289 bytes complete)
+2024-04-17 08:41:21.025	packager-daemon INFO Opened file part-11518 for reading (11518/12288 files complete; 1648680397065/1758354243289 bytes complete)
+2024-04-17 08:41:19.224	packager-daemon INFO Have created 1649 output streams
+2024-04-17 08:41:18.929	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001648
+2024-04-17 08:41:18.421	packager-daemon INFO Opened file part-11517 for reading (11517/12288 files complete; 1648535019426/1758354243289 bytes complete)
+2024-04-17 08:41:16.249	packager-daemon INFO Opened file part-11516 for reading (11516/12288 files complete; 1648396717115/1758354243289 bytes complete)
+2024-04-17 08:41:13.739	packager-daemon INFO Opened file part-11515 for reading (11515/12288 files complete; 1648251360751/1758354243289 bytes complete)
+2024-04-17 08:41:11.424	packager-daemon INFO Opened file part-11514 for reading (11514/12288 files complete; 1648106055793/1758354243289 bytes complete)
+2024-04-17 08:41:09.052	packager-daemon INFO Opened file part-11513 for reading (11513/12288 files complete; 1647968315203/1758354243289 bytes complete)
+2024-04-17 08:41:05.333	packager-daemon INFO Opened file part-11512 for reading (11512/12288 files complete; 1647822921571/1758354243289 bytes complete)
+2024-04-17 08:41:02.756	packager-daemon INFO Opened file part-11511 for reading (11511/12288 files complete; 1647677636990/1758354243289 bytes complete)
+2024-04-17 08:41:01.436	packager-daemon INFO Have created 1648 output streams
+2024-04-17 08:41:01.115	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001647
+2024-04-17 08:41:00.660	packager-daemon INFO Opened file part-11510 for reading (11510/12288 files complete; 1647541219114/1758354243289 bytes complete)
+2024-04-17 08:40:58.053	packager-daemon INFO Opened file part-11509 for reading (11509/12288 files complete; 1647395919797/1758354243289 bytes complete)
+2024-04-17 08:40:55.636	packager-daemon INFO Opened file part-11508 for reading (11508/12288 files complete; 1647250629768/1758354243289 bytes complete)
+2024-04-17 08:40:53.532	packager-daemon INFO Opened file part-11507 for reading (11507/12288 files complete; 1647112780148/1758354243289 bytes complete)
+2024-04-17 08:40:50.904	packager-daemon INFO Opened file part-11506 for reading (11506/12288 files complete; 1646967577907/1758354243289 bytes complete)
+2024-04-17 08:40:48.842	packager-daemon INFO Opened file part-11505 for reading (11505/12288 files complete; 1646822270400/1758354243289 bytes complete)
+2024-04-17 08:40:45.616	packager-daemon INFO Opened file part-11504 for reading (11504/12288 files complete; 1646684269026/1758354243289 bytes complete)
+2024-04-17 08:40:44.035	packager-daemon INFO Have created 1647 output streams
+2024-04-17 08:40:43.716	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001646
+2024-04-17 08:40:43.233	packager-daemon INFO Opened file part-11503 for reading (11503/12288 files complete; 1646539084093/1758354243289 bytes complete)
+2024-04-17 08:40:40.087	packager-daemon INFO Opened file part-11502 for reading (11502/12288 files complete; 1646393691646/1758354243289 bytes complete)
+2024-04-17 08:40:37.951	packager-daemon INFO Opened file part-11501 for reading (11501/12288 files complete; 1646256459348/1758354243289 bytes complete)
+2024-04-17 08:40:34.749	packager-daemon INFO Opened file part-11500 for reading (11500/12288 files complete; 1646111279680/1758354243289 bytes complete)
+2024-04-17 08:40:32.594	packager-daemon INFO Opened file part-11499 for reading (11499/12288 files complete; 1645965931533/1758354243289 bytes complete)
+2024-04-17 08:40:29.635	packager-daemon INFO Opened file part-11498 for reading (11498/12288 files complete; 1645829063831/1758354243289 bytes complete)
+2024-04-17 08:40:27.494	packager-daemon INFO Opened file part-11497 for reading (11497/12288 files complete; 1645683767836/1758354243289 bytes complete)
+2024-04-17 08:40:25.464	packager-daemon INFO Have created 1646 output streams
+2024-04-17 08:40:25.137	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001645
+2024-04-17 08:40:24.525	packager-daemon INFO Opened file part-11496 for reading (11496/12288 files complete; 1645538425343/1758354243289 bytes complete)
+2024-04-17 08:40:22.372	packager-daemon INFO Opened file part-11495 for reading (11495/12288 files complete; 1645400936089/1758354243289 bytes complete)
+2024-04-17 08:40:19.524	packager-daemon INFO Opened file part-11494 for reading (11494/12288 files complete; 1645255610472/1758354243289 bytes complete)
+2024-04-17 08:40:17.204	packager-daemon INFO Opened file part-11493 for reading (11493/12288 files complete; 1645110283781/1758354243289 bytes complete)
+2024-04-17 08:40:14.659	packager-daemon INFO Opened file part-11492 for reading (11492/12288 files complete; 1644972190548/1758354243289 bytes complete)
+2024-04-17 08:40:12.323	packager-daemon INFO Opened file part-11491 for reading (11491/12288 files complete; 1644826982450/1758354243289 bytes complete)
+2024-04-17 08:40:09.488	packager-daemon INFO Opened file part-11490 for reading (11490/12288 files complete; 1644681656116/1758354243289 bytes complete)
+2024-04-17 08:40:07.921	packager-daemon INFO Have created 1645 output streams
+2024-04-17 08:40:07.605	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001644
+2024-04-17 08:40:07.115	packager-daemon INFO Opened file part-11489 for reading (11489/12288 files complete; 1644544634838/1758354243289 bytes complete)
+2024-04-17 08:40:04.237	packager-daemon INFO Opened file part-11488 for reading (11488/12288 files complete; 1644399430911/1758354243289 bytes complete)
+2024-04-17 08:40:02.104	packager-daemon INFO Opened file part-11487 for reading (11487/12288 files complete; 1644254144941/1758354243289 bytes complete)
+2024-04-17 08:39:59.417	packager-daemon INFO Opened file part-11486 for reading (11486/12288 files complete; 1644117000135/1758354243289 bytes complete)
+2024-04-17 08:39:57.469	packager-daemon INFO Opened file part-11485 for reading (11485/12288 files complete; 1643971687544/1758354243289 bytes complete)
+2024-04-17 08:39:54.966	packager-daemon INFO Opened file part-11484 for reading (11484/12288 files complete; 1643826352461/1758354243289 bytes complete)
+2024-04-17 08:39:52.550	packager-daemon INFO Opened file part-11483 for reading (11483/12288 files complete; 1643688954183/1758354243289 bytes complete)
+2024-04-17 08:39:50.577	packager-daemon INFO Have created 1644 output streams
+2024-04-17 08:39:50.250	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001643
+2024-04-17 08:39:49.792	packager-daemon INFO Opened file part-11482 for reading (11482/12288 files complete; 1643543681580/1758354243289 bytes complete)
+2024-04-17 08:39:46.842	packager-daemon INFO Opened file part-11481 for reading (11481/12288 files complete; 1643398375872/1758354243289 bytes complete)
+2024-04-17 08:39:44.748	packager-daemon INFO Opened file part-11480 for reading (11480/12288 files complete; 1643261985738/1758354243289 bytes complete)
+2024-04-17 08:39:42.178	packager-daemon INFO Opened file part-11479 for reading (11479/12288 files complete; 1643116634487/1758354243289 bytes complete)
+2024-04-17 08:39:38.959	packager-daemon INFO Opened file part-11478 for reading (11478/12288 files complete; 1642971323189/1758354243289 bytes complete)
+2024-04-17 08:39:35.821	packager-daemon INFO Opened file part-11477 for reading (11477/12288 files complete; 1642834381495/1758354243289 bytes complete)
+2024-04-17 08:39:33.610	packager-daemon INFO Opened file part-11476 for reading (11476/12288 files complete; 1642689047637/1758354243289 bytes complete)
+2024-04-17 08:39:31.754	packager-daemon INFO Have created 1643 output streams
+2024-04-17 08:39:31.360	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001642
+2024-04-17 08:39:30.854	packager-daemon INFO Opened file part-11475 for reading (11475/12288 files complete; 1642543763469/1758354243289 bytes complete)
+2024-04-17 08:39:28.223	packager-daemon INFO Opened file part-11474 for reading (11474/12288 files complete; 1642407240464/1758354243289 bytes complete)
+2024-04-17 08:39:25.397	packager-daemon INFO Opened file part-11473 for reading (11473/12288 files complete; 1642261963385/1758354243289 bytes complete)
+2024-04-17 08:39:22.759	packager-daemon INFO Opened file part-11472 for reading (11472/12288 files complete; 1642116592352/1758354243289 bytes complete)
+2024-04-17 08:39:20.604	packager-daemon INFO Opened file part-11471 for reading (11471/12288 files complete; 1641979326326/1758354243289 bytes complete)
+2024-04-17 08:39:17.997	packager-daemon INFO Opened file part-11470 for reading (11470/12288 files complete; 1641833979480/1758354243289 bytes complete)
+2024-04-17 08:39:15.551	packager-daemon INFO Opened file part-11469 for reading (11469/12288 files complete; 1641688700212/1758354243289 bytes complete)
+2024-04-17 08:39:14.090	packager-daemon INFO Have created 1642 output streams
+2024-04-17 08:39:13.793	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001641
+2024-04-17 08:39:13.440	packager-daemon INFO Opened file part-11468 for reading (11468/12288 files complete; 1641550814604/1758354243289 bytes complete)
+2024-04-17 08:39:11.024	packager-daemon INFO Opened file part-11467 for reading (11467/12288 files complete; 1641405567537/1758354243289 bytes complete)
+2024-04-17 08:39:08.864	packager-daemon INFO Opened file part-11466 for reading (11466/12288 files complete; 1641260258464/1758354243289 bytes complete)
+2024-04-17 08:39:06.525	packager-daemon INFO Opened file part-11465 for reading (11465/12288 files complete; 1641122459448/1758354243289 bytes complete)
+2024-04-17 08:39:04.480	packager-daemon INFO Opened file part-11464 for reading (11464/12288 files complete; 1640977149033/1758354243289 bytes complete)
+2024-04-17 08:39:01.723	packager-daemon INFO Opened file part-11463 for reading (11463/12288 files complete; 1640831813377/1758354243289 bytes complete)
+2024-04-17 08:38:59.768	packager-daemon INFO Opened file part-11462 for reading (11462/12288 files complete; 1640694372144/1758354243289 bytes complete)
+2024-04-17 08:38:57.404	packager-daemon INFO Have created 1641 output streams
+2024-04-17 08:38:57.124	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001640
+2024-04-17 08:38:56.714	packager-daemon INFO Opened file part-11461 for reading (11461/12288 files complete; 1640549141473/1758354243289 bytes complete)
+2024-04-17 08:38:54.752	packager-daemon INFO Opened file part-11460 for reading (11460/12288 files complete; 1640403822804/1758354243289 bytes complete)
+2024-04-17 08:38:52.435	packager-daemon INFO Opened file part-11459 for reading (11459/12288 files complete; 1640265865752/1758354243289 bytes complete)
+2024-04-17 08:38:50.386	packager-daemon INFO Opened file part-11458 for reading (11458/12288 files complete; 1640120555561/1758354243289 bytes complete)
+2024-04-17 08:38:48.048	packager-daemon INFO Opened file part-11457 for reading (11457/12288 files complete; 1639975199060/1758354243289 bytes complete)
+2024-04-17 08:38:46.117	packager-daemon INFO Opened file part-11456 for reading (11456/12288 files complete; 1639837672525/1758354243289 bytes complete)
+2024-04-17 08:38:44.121	packager-daemon INFO Opened file part-11455 for reading (11455/12288 files complete; 1639692460318/1758354243289 bytes complete)
+2024-04-17 08:38:42.189	packager-daemon INFO Have created 1640 output streams
+2024-04-17 08:38:41.857	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001639
+2024-04-17 08:38:41.431	packager-daemon INFO Opened file part-11454 for reading (11454/12288 files complete; 1639547154727/1758354243289 bytes complete)
+2024-04-17 08:38:39.557	packager-daemon INFO Opened file part-11453 for reading (11453/12288 files complete; 1639409863812/1758354243289 bytes complete)
+2024-04-17 08:38:37.171	packager-daemon INFO Opened file part-11452 for reading (11452/12288 files complete; 1639264505147/1758354243289 bytes complete)
+2024-04-17 08:38:35.065	packager-daemon INFO Opened file part-11451 for reading (11451/12288 files complete; 1639119195876/1758354243289 bytes complete)
+2024-04-17 08:38:32.371	packager-daemon INFO Opened file part-11450 for reading (11450/12288 files complete; 1638982622858/1758354243289 bytes complete)
+2024-04-17 08:38:30.317	packager-daemon INFO Opened file part-11449 for reading (11449/12288 files complete; 1638837336569/1758354243289 bytes complete)
+2024-04-17 08:38:27.762	packager-daemon INFO Opened file part-11448 for reading (11448/12288 files complete; 1638692013408/1758354243289 bytes complete)
+2024-04-17 08:38:26.087	packager-daemon INFO Have created 1639 output streams
+2024-04-17 08:38:25.735	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001638
+2024-04-17 08:38:25.358	packager-daemon INFO Opened file part-11447 for reading (11447/12288 files complete; 1638555016033/1758354243289 bytes complete)
+2024-04-17 08:38:22.594	packager-daemon INFO Opened file part-11446 for reading (11446/12288 files complete; 1638409695118/1758354243289 bytes complete)
+2024-04-17 08:38:20.364	packager-daemon INFO Opened file part-11445 for reading (11445/12288 files complete; 1638264404039/1758354243289 bytes complete)
+2024-04-17 08:38:18.059	packager-daemon INFO Opened file part-11444 for reading (11444/12288 files complete; 1638126589680/1758354243289 bytes complete)
+2024-04-17 08:38:16.031	packager-daemon INFO Opened file part-11443 for reading (11443/12288 files complete; 1637981242558/1758354243289 bytes complete)
+2024-04-17 08:38:12.352	packager-daemon INFO Opened file part-11442 for reading (11442/12288 files complete; 1637835908820/1758354243289 bytes complete)
+2024-04-17 08:38:10.450	packager-daemon INFO Opened file part-11441 for reading (11441/12288 files complete; 1637698730063/1758354243289 bytes complete)
+2024-04-17 08:38:08.430	packager-daemon INFO Have created 1638 output streams
+2024-04-17 08:38:08.036	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001637
+2024-04-17 08:38:07.657	packager-daemon INFO Opened file part-11440 for reading (11440/12288 files complete; 1637553493141/1758354243289 bytes complete)
+2024-04-17 08:38:04.401	packager-daemon INFO Opened file part-11439 for reading (11439/12288 files complete; 1637408180974/1758354243289 bytes complete)
+2024-04-17 08:38:01.896	packager-daemon INFO Opened file part-11438 for reading (11438/12288 files complete; 1637270607025/1758354243289 bytes complete)
+2024-04-17 08:37:59.962	packager-daemon INFO Opened file part-11437 for reading (11437/12288 files complete; 1637125338315/1758354243289 bytes complete)
+2024-04-17 08:37:56.459	packager-daemon INFO Opened file part-11436 for reading (11436/12288 files complete; 1636980066430/1758354243289 bytes complete)
+2024-04-17 08:37:54.371	packager-daemon INFO Opened file part-11435 for reading (11435/12288 files complete; 1636842569692/1758354243289 bytes complete)
+2024-04-17 08:37:51.812	packager-daemon INFO Opened file part-11434 for reading (11434/12288 files complete; 1636697211685/1758354243289 bytes complete)
+2024-04-17 08:37:50.229	packager-daemon INFO Have created 1637 output streams
+2024-04-17 08:37:49.912	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001636
+2024-04-17 08:37:49.560	packager-daemon INFO Opened file part-11433 for reading (11433/12288 files complete; 1636551918449/1758354243289 bytes complete)
+2024-04-17 08:37:47.255	packager-daemon INFO Opened file part-11432 for reading (11432/12288 files complete; 1636414356708/1758354243289 bytes complete)
+2024-04-17 08:37:45.102	packager-daemon INFO Opened file part-11431 for reading (11431/12288 files complete; 1636269103524/1758354243289 bytes complete)
+2024-04-17 08:37:42.630	packager-daemon INFO Opened file part-11430 for reading (11430/12288 files complete; 1636123782244/1758354243289 bytes complete)
+2024-04-17 08:37:40.734	packager-daemon INFO Opened file part-11429 for reading (11429/12288 files complete; 1635986950317/1758354243289 bytes complete)
+2024-04-17 08:37:38.331	packager-daemon INFO Opened file part-11428 for reading (11428/12288 files complete; 1635841595845/1758354243289 bytes complete)
+2024-04-17 08:37:36.243	packager-daemon INFO Opened file part-11427 for reading (11427/12288 files complete; 1635696271587/1758354243289 bytes complete)
+2024-04-17 08:37:34.621	packager-daemon INFO Have created 1636 output streams
+2024-04-17 08:37:34.286	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001635
+2024-04-17 08:37:34.115	packager-daemon INFO Opened file part-11426 for reading (11426/12288 files complete; 1635558348161/1758354243289 bytes complete)
+2024-04-17 08:37:31.730	packager-daemon INFO Opened file part-11425 for reading (11425/12288 files complete; 1635413158789/1758354243289 bytes complete)
+2024-04-17 08:37:28.112	packager-daemon INFO Opened file part-11424 for reading (11424/12288 files complete; 1635267778229/1758354243289 bytes complete)
+2024-04-17 08:37:25.867	packager-daemon INFO Opened file part-11423 for reading (11423/12288 files complete; 1635130671912/1758354243289 bytes complete)
+2024-04-17 08:37:23.872	packager-daemon INFO Opened file part-11422 for reading (11422/12288 files complete; 1634985416891/1758354243289 bytes complete)
+2024-04-17 08:37:21.427	packager-daemon INFO Opened file part-11421 for reading (11421/12288 files complete; 1634840020290/1758354243289 bytes complete)
+2024-04-17 08:37:19.521	packager-daemon INFO Opened file part-11420 for reading (11420/12288 files complete; 1634703158152/1758354243289 bytes complete)
+2024-04-17 08:37:17.440	packager-daemon INFO Have created 1635 output streams
+2024-04-17 08:37:17.138	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001634
+2024-04-17 08:37:16.933	packager-daemon INFO Opened file part-11419 for reading (11419/12288 files complete; 1634557883389/1758354243289 bytes complete)
+2024-04-17 08:37:14.935	packager-daemon INFO Opened file part-11418 for reading (11418/12288 files complete; 1634412471631/1758354243289 bytes complete)
+2024-04-17 08:37:12.482	packager-daemon INFO Opened file part-11417 for reading (11417/12288 files complete; 1634274874477/1758354243289 bytes complete)
+2024-04-17 08:37:10.397	packager-daemon INFO Opened file part-11416 for reading (11416/12288 files complete; 1634129566146/1758354243289 bytes complete)
+2024-04-17 08:37:07.923	packager-daemon INFO Opened file part-11415 for reading (11415/12288 files complete; 1633984248855/1758354243289 bytes complete)
+2024-04-17 08:37:05.964	packager-daemon INFO Opened file part-11414 for reading (11414/12288 files complete; 1633846541262/1758354243289 bytes complete)
+2024-04-17 08:37:03.586	packager-daemon INFO Opened file part-11413 for reading (11413/12288 files complete; 1633701207179/1758354243289 bytes complete)
+2024-04-17 08:37:01.954	packager-daemon INFO Have created 1634 output streams
+2024-04-17 08:37:01.638	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001633
+2024-04-17 08:37:01.305	packager-daemon INFO Opened file part-11412 for reading (11412/12288 files complete; 1633555895524/1758354243289 bytes complete)
+2024-04-17 08:36:59.151	packager-daemon INFO Opened file part-11411 for reading (11411/12288 files complete; 1633418424258/1758354243289 bytes complete)
+2024-04-17 08:36:56.583	packager-daemon INFO Opened file part-11410 for reading (11410/12288 files complete; 1633273124501/1758354243289 bytes complete)
+2024-04-17 08:36:54.523	packager-daemon INFO Opened file part-11409 for reading (11409/12288 files complete; 1633127813946/1758354243289 bytes complete)
+2024-04-17 08:36:52.068	packager-daemon INFO Opened file part-11408 for reading (11408/12288 files complete; 1632990243636/1758354243289 bytes complete)
+2024-04-17 08:36:49.710	packager-daemon INFO Opened file part-11407 for reading (11407/12288 files complete; 1632844943386/1758354243289 bytes complete)
+2024-04-17 08:36:46.216	packager-daemon INFO Opened file part-11406 for reading (11406/12288 files complete; 1632699607138/1758354243289 bytes complete)
+2024-04-17 08:36:44.334	packager-daemon INFO Opened file part-11405 for reading (11405/12288 files complete; 1632561667153/1758354243289 bytes complete)
+2024-04-17 08:36:44.325	packager-daemon INFO Have created 1633 output streams
+2024-04-17 08:36:43.968	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001632
+2024-04-17 08:36:41.457	packager-daemon INFO Opened file part-11404 for reading (11404/12288 files complete; 1632416429041/1758354243289 bytes complete)
+2024-04-17 08:36:39.424	packager-daemon INFO Opened file part-11403 for reading (11403/12288 files complete; 1632271084740/1758354243289 bytes complete)
+2024-04-17 08:36:37.137	packager-daemon INFO Opened file part-11402 for reading (11402/12288 files complete; 1632133623531/1758354243289 bytes complete)
+2024-04-17 08:36:35.083	packager-daemon INFO Opened file part-11401 for reading (11401/12288 files complete; 1631988435204/1758354243289 bytes complete)
+2024-04-17 08:36:32.488	packager-daemon INFO Opened file part-11400 for reading (11400/12288 files complete; 1631843074495/1758354243289 bytes complete)
+2024-04-17 08:36:30.533	packager-daemon INFO Opened file part-11399 for reading (11399/12288 files complete; 1631705518517/1758354243289 bytes complete)
+2024-04-17 08:36:28.730	packager-daemon INFO Have created 1632 output streams
+2024-04-17 08:36:28.453	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001631
+2024-04-17 08:36:28.261	packager-daemon INFO Opened file part-11398 for reading (11398/12288 files complete; 1631560331536/1758354243289 bytes complete)
+2024-04-17 08:36:25.695	packager-daemon INFO Opened file part-11397 for reading (11397/12288 files complete; 1631414947749/1758354243289 bytes complete)
+2024-04-17 08:36:23.601	packager-daemon INFO Opened file part-11396 for reading (11396/12288 files complete; 1631277220242/1758354243289 bytes complete)
+2024-04-17 08:36:20.847	packager-daemon INFO Opened file part-11395 for reading (11395/12288 files complete; 1631131963923/1758354243289 bytes complete)
+2024-04-17 08:36:18.204	packager-daemon INFO Opened file part-11394 for reading (11394/12288 files complete; 1630986563127/1758354243289 bytes complete)
+2024-04-17 08:36:14.657	packager-daemon INFO Opened file part-11393 for reading (11393/12288 files complete; 1630849444835/1758354243289 bytes complete)
+2024-04-17 08:36:10.629	packager-daemon INFO Opened file part-11392 for reading (11392/12288 files complete; 1630704169488/1758354243289 bytes complete)
+2024-04-17 08:36:08.265	packager-daemon INFO Have created 1631 output streams
+2024-04-17 08:36:07.969	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001630
+2024-04-17 08:36:07.753	packager-daemon INFO Opened file part-11391 for reading (11391/12288 files complete; 1630558787592/1758354243289 bytes complete)
+2024-04-17 08:36:05.652	packager-daemon INFO Opened file part-11390 for reading (11390/12288 files complete; 1630421038093/1758354243289 bytes complete)
+2024-04-17 08:36:02.943	packager-daemon INFO Opened file part-11389 for reading (11389/12288 files complete; 1630275765619/1758354243289 bytes complete)
+2024-04-17 08:36:00.888	packager-daemon INFO Opened file part-11388 for reading (11388/12288 files complete; 1630130479488/1758354243289 bytes complete)
+2024-04-17 08:35:58.771	packager-daemon INFO Opened file part-11387 for reading (11387/12288 files complete; 1629993750302/1758354243289 bytes complete)
+2024-04-17 08:35:55.953	packager-daemon INFO Opened file part-11386 for reading (11386/12288 files complete; 1629848528406/1758354243289 bytes complete)
+2024-04-17 08:35:53.356	packager-daemon INFO Opened file part-11385 for reading (11385/12288 files complete; 1629703178393/1758354243289 bytes complete)
+2024-04-17 08:35:50.940	packager-daemon INFO Opened file part-11384 for reading (11384/12288 files complete; 1629566053883/1758354243289 bytes complete)
+2024-04-17 08:35:50.877	packager-daemon INFO Have created 1630 output streams
+2024-04-17 08:35:50.562	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001629
+2024-04-17 08:35:48.562	packager-daemon INFO Opened file part-11383 for reading (11383/12288 files complete; 1629420829599/1758354243289 bytes complete)
+2024-04-17 08:35:46.151	packager-daemon INFO Opened file part-11382 for reading (11382/12288 files complete; 1629275405109/1758354243289 bytes complete)
+2024-04-17 08:35:44.123	packager-daemon INFO Opened file part-11381 for reading (11381/12288 files complete; 1629138561176/1758354243289 bytes complete)
+2024-04-17 08:35:41.665	packager-daemon INFO Opened file part-11380 for reading (11380/12288 files complete; 1628993253396/1758354243289 bytes complete)
+2024-04-17 08:35:39.435	packager-daemon INFO Opened file part-11379 for reading (11379/12288 files complete; 1628847926894/1758354243289 bytes complete)
+2024-04-17 08:35:37.409	packager-daemon INFO Opened file part-11378 for reading (11378/12288 files complete; 1628710676225/1758354243289 bytes complete)
+2024-04-17 08:35:34.821	packager-daemon INFO Opened file part-11377 for reading (11377/12288 files complete; 1628565391473/1758354243289 bytes complete)
+2024-04-17 08:35:34.753	packager-daemon INFO Have created 1629 output streams
+2024-04-17 08:35:34.422	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001628
+2024-04-17 08:35:31.855	packager-daemon INFO Opened file part-11376 for reading (11376/12288 files complete; 1628420067652/1758354243289 bytes complete)
+2024-04-17 08:35:27.823	packager-daemon INFO Opened file part-11375 for reading (11375/12288 files complete; 1628282915125/1758354243289 bytes complete)
+2024-04-17 08:35:25.628	packager-daemon INFO Opened file part-11374 for reading (11374/12288 files complete; 1628137757710/1758354243289 bytes complete)
+2024-04-17 08:35:22.966	packager-daemon INFO Opened file part-11373 for reading (11373/12288 files complete; 1627992365636/1758354243289 bytes complete)
+2024-04-17 08:35:20.790	packager-daemon INFO Opened file part-11372 for reading (11372/12288 files complete; 1627855326447/1758354243289 bytes complete)
+2024-04-17 08:35:18.116	packager-daemon INFO Opened file part-11371 for reading (11371/12288 files complete; 1627710007421/1758354243289 bytes complete)
+2024-04-17 08:35:15.882	packager-daemon INFO Opened file part-11370 for reading (11370/12288 files complete; 1627564685058/1758354243289 bytes complete)
+2024-04-17 08:35:15.826	packager-daemon INFO Have created 1628 output streams
+2024-04-17 08:35:15.490	packager-daemon INFO Creating a new output stream with path gs://liveramp-eng-dist-deliverer-input/working_directory/4746240511/data_temp/data-000001627
+2024-04-17 08:35:13.525	packager-daemon INFO Opened file part-11369 for reading (11369/12288 files complete; 1627428305207/1758354243289 bytes complete)
+2024-04-17 08:35:10.911	packager-daemon INFO Opened file part-11368 for reading (11368/12288 files complete; 1627283025542/1758354243289 bytes complete)
