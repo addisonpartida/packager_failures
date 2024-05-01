@@ -113,19 +113,6 @@ def log_parser(log_file):
                 error_counts[matched_category] += 1
 
 
-def invalid_path_parse(line):
-    pass
-def NullPointerParse(line):
-    pass
-def TooManyRequestsParse(line):
-    pass
-def GCSErrorParse(line):
-    pass
-
-
-def export_to_db(log_file, db):
-    pass
-
 def extract_info(line):
     # Regular expression pattern to match date, time, and packager ID
     regex_pattern = r'(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2}.\d{3}).*packager-daemon.*working_directory/(\d+)/'
