@@ -5,6 +5,8 @@ import json
 import time
 from datetime import datetime
 import re
+import pandas as pd
+import csv
 
 def timestamp_to_epoch(timestamp):
     dt = datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
@@ -39,6 +41,7 @@ def categorize_errors(error_message):
     
         ],
         'GCS Errors': [
+            r'.*java.lang.RuntimeException: com.google.cloud.storage.StorageException: Unknown Error.*'
             r'.*exception_message": ".*com.google.cloud.storage.StorageException: We encountered an internal error.*',
             r'.*com.google.cloud.storage.StorageException: Read timed out.*',
             r'.* exception while processing: com.google.cloud.storage.StorageException: .* Please reduce your request rate',
@@ -78,7 +81,7 @@ def categorize_errors(error_message):
     # for error_type, pattern in error_patterns.items():
     #     if re.search(pattern, error_message, re.IGNORECASE):
     #         return error_type
-        
+    
     for error_type, pattern_list in error_patterns.items():
         for pattern in pattern_list:
             # Ensure pattern is a string before using it
@@ -94,71 +97,119 @@ with open('data.json') as json_data:
 
 results = d['data']['result']
 
+
+
+def parse_json(results):
 #grab information from logs that I want:
 # add each line to dictionary where key is req_id
 # value is list of dictionaries that contatin time, id, error
 # req_id: [{ts1, id1, error1}, {ts2,id2,error2}, etc...]
-
-table_dictionary = {}
-for entry in results:
-    #get request ID
-    if entry['stream'].get('attributes_mdc_request_id'):
-        stream_reqid = entry['stream']['attributes_mdc_request_id']
-    else:
-        stream_reqid = None
-    #get timestamp
-    if  entry['stream'].get('attributes__timestamp'):
-        stream_time = entry ['stream']['attributes__timestamp'] 
-        epoch_time = timestamp_to_epoch(stream_time)
-    else: 
-        stream_time = None
-    #get error message
-    if entry['stream'].get('attributes_exception_exception_message'):
-        stream_error = entry['stream']['attributes_exception_exception_message']
-    elif entry['stream'].get('attributes_message'):
-        stream_error = entry['stream']['attributes_message']
     
-    else:
-        stream_error = None
+    table_dictionary = {}
+    entry_meta_list = []
+    for entry in results:
+        #get request ID
+        if entry['stream'].get('attributes_mdc_request_id'):
+            stream_reqid = entry['stream']['attributes_mdc_request_id']
+        else:
+            stream_reqid = None
+        #get timestamp
+        if  entry['stream'].get('attributes__timestamp'):
+            stream_time = entry ['stream']['attributes__timestamp'] 
+            epoch_time = timestamp_to_epoch(stream_time)
+        else: 
+            stream_time = None
+        #get error message
+        if entry['stream'].get('attributes_exception_exception_message'):
+            stream_error = entry['stream']['attributes_exception_exception_message']
+            s1= '\n'
+            s2= " "
+            stream_error = stream_error.replace(s1, s2)
+        elif entry['stream'].get('attributes_message'):
+            stream_error = entry['stream']['attributes_message']
+            s1= '\n'
+            s2= " "
+            stream_error = stream_error.replace(s1, s2)
+        
+        else:
+            stream_error = None
 
-  #categorizes the error messages with helper from above, using patterns listed above too
-    error_type = categorize_errors(stream_error)
+    #categorizes the error messages with helper from above, using patterns listed above too
+        error_type = categorize_errors(stream_error)
 
-    #if key is already in dict, append a new dictionary to the list value
-    entry_meta = {}
-    if stream_reqid in entry_meta:
-        entry_meta.append({"date": stream_time, "epoch_time": epoch_time, "Error_Message": stream_error, "Error Category": error_type})
-    else: 
-        entry_meta[stream_reqid] = [{"date": stream_time, "epoch_time": epoch_time, "Error_Message": stream_error, "Error Category": error_type}]
-   
-  
-    print(entry_meta)
+        #if key is already in dict, append a new dictionary to the list value
+        entry_meta = {}
+        if stream_reqid in entry_meta:
+            entry_meta.append({"date": stream_time, "epoch_time": epoch_time, "Error_Message": stream_error, "Error Category": error_type})
+        else: 
+            entry_meta[stream_reqid] = [{"date": stream_time, "epoch_time": epoch_time, "Error_Message": stream_error, "Error Category": error_type}]
+        entry_meta_list.append(entry_meta)
+    # print(entry_meta_list)
+    # output_file_path = 'errors_to_bq.jsonl'
+    # for i in entry_meta_list:
+    #     entry_meta_list[stream_error].replace('\n', '\\n')
 
-    # print(stream_reqid, epoch_time, stream_error)
+    df_data = []
+    for entry_meta in entry_meta_list:
+        for req_id, entries in entry_meta.items():
+            for entry in entries:
+                df_data.append({
+                    "ID": req_id,
+                    "timestamp": entry["date"],
+                    "epoch_time": entry["epoch_time"],
+                    "error_message": entry["Error_Message"],
+                    "error_category": entry["Error Category"]
+                })
+
+    df = pd.DataFrame(df_data)
+    return df
+
+parsed_df = parse_json(results)
+print(parsed_df)
+
+parsed_df.to_csv('to_bq.csv', index=False)
+
+# def preprocess_csv(input_file, output_file):
+#     with open('to_bq.csv', 'r') as f_in, open(output_file, 'w') as f_out:
+#         reader = csv.reader(f_in)
+#         writer = csv.writer(f_out)
+
+#         for row in reader:
+#             # Check if the row contains an error message
+#             if len(row) > 0 and 'ERROR' in row[0]:
+#                 # Replace newline characters with a space
+#                 error_message = ' '.join(row)
+#                 writer.writerow([error_message])
+#             else:
+#                 writer.writerow(row)
+# preprocess_csv('to_bq.csv', 'to_bq_pretty.csv')                
 
 
 
+######### BELOW IS FOR EXPORTING AS JSONL to "errors_to_bq.jsonl"
+    # with open(output_file_path, "w") as jsonl_file:
+    #     for entry_meta in entry_meta_list:
+    #         for req_id, entries in entry_meta.items():
+    #             for entry in entries:
+    #                 data = {req_id: {
+    #                     "date": entry["date"],
+    #                     "epoch_time": entry["epoch_time"],
+    #                     "Error_Message": entry["Error_Message"],
+    #                     "Error Category": entry["Error Category"]
+    #                 }}
+    #                 jsonl_file.write(json.dumps(data) + "\n")
 
+    # # print("Data exported to", output_file_path)
+    # print("Data exported to", 'errors_to_bq.json')
+            
+parse_json(results)
 
-# ####### writing now to database
-# # Example dictionary
-# my_dict= entry_meta
-# # Connect to SQLite database (create one if it doesn't exist)
-# conn = sqlite3.connect('my_database.db')
-# cursor = conn.cursor()
+#try to send to bq from here
 
-# # Create a table
-# cursor.execute('''CREATE TABLE IF NOT EXISTS error_logs (
-#                     req_id INT,
-#                     date TEXT,
-#                     error TEXT,
-#                 )''')
+# from google.cloud import bigquery
+# from pandas_gbq import to_gbq
 
-# # Insert data from dictionary into the table
-# for key, value in my_dict.items():
-#     for entry in value:
-#         cursor.execute("INSERT INTO error_logs (req_id, date, error, error_type) VALUES (?, ?, ?)", (key, entry['date'], entry['error']))
+# project_id = 'liveramp-ts-bigquery.partida_addison'
+# table_name = 'liveramp-ts-bigquery.partida_addison.TEST'
 
-# # Commit changes and close connection
-# conn.commit()
-# conn.close()
+# to_gbq(parsed_df, table_name, project_id=project_id, if_exists='replace')

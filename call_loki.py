@@ -9,9 +9,9 @@ def query_loki_api(token, query):
     }
     params = {
         'query': query,
-        'limit': 1000,
-        'start': '1711832441' ,
-        'end': '1714348841' ,
+        'limit': 10000,
+        'start': '1712169951' ,
+        'end': '1714761951' ,
     }
     url = 'https://logs-prod3.grafana.net/loki/api/v1/query_range'  # Replace 'example.com' with your Loki API URL
     response = requests.get(url, headers=headers, params=params)
@@ -22,7 +22,7 @@ def query_loki_api(token, query):
         data = response.json()
         stats = data['data']['stats']['summary']['totalLinesProcessed']
         print(f"STATS: {stats}")
-        print(data)
+        # print(data)
     else:
         print(f"Failed to query Loki API. Status code: {response.status_code}")
         return None
@@ -34,5 +34,7 @@ if __name__ == "__main__":
     result = query_loki_api(token, error_query)
 
     if result:
-        print("Query Result:")
-        print(result)
+        print("Success!")
+        # print("Query Result:")
+        # print(result)
+    
