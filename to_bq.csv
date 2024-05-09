@@ -1,101 +1,11 @@
 ID,timestamp,epoch_time,error_message,error_category
-4765351421,2024-05-03T18:43:18.083Z,1714761798,java.lang.RuntimeException: java.lang.RuntimeException: java.io.IOException: com.google.cloud.storage.StorageException: Unknown Error,GCS Errors
-4765351421,2024-05-03T18:43:17.756Z,1714761797,java.lang.RuntimeException: java.io.IOException: com.google.cloud.storage.StorageException: Unknown Error,GCS Errors
-4751181531,2024-05-03T18:38:54.156Z,1714761534,java.lang.RuntimeException: java.lang.RuntimeException: java.io.IOException: Path does not exist: formatted_data/1352725281/data/part-22576,Invalid Path
-4751181531,2024-05-03T18:38:54.030Z,1714761534,java.lang.RuntimeException: java.io.IOException: Path does not exist: formatted_data/1352725281/data/part-22576,Invalid Path
-4809918241,2024-05-03T18:37:40.946Z,1714761460,java.lang.RuntimeException: java.lang.RuntimeException: java.io.IOException: com.google.cloud.storage.StorageException: Unknown Error 	|> PUT https://storage.googleapis.com/upload/storage/v1/b/liveramp-eng-dist-deliverer-input/o?name=working_directory/4809918241/data_temp/data-000000000&uploadType=resumable&upload_id=ABPtcPr11KgXDzulId433bjOEnSmMJMwCvf_7awr7MetdKcZsI9xtlze-xDi6R-xswq46n_LxlJi1OkbGuCBzJVCHHpj_Xe2q_YjlAS-rJT_XDHmmw 	|> content-range: bytes 420420255744-420437032959/* 	|> x-goog-gcs-idempotency-token: bfbe50bb-2416-4444-a2cb-4bfe6093ccb7 	|   	|< HTTP/1.1 503 Service Unavailable 	|< content-length: 0 	|< content-type: text/plain; charset=utf-8 	|  ,GCS Errors
-4809918241,2024-05-03T18:37:40.739Z,1714761460,java.lang.RuntimeException: java.io.IOException: com.google.cloud.storage.StorageException: Unknown Error 	|> PUT https://storage.googleapis.com/upload/storage/v1/b/liveramp-eng-dist-deliverer-input/o?name=working_directory/4809918241/data_temp/data-000000000&uploadType=resumable&upload_id=ABPtcPr11KgXDzulId433bjOEnSmMJMwCvf_7awr7MetdKcZsI9xtlze-xDi6R-xswq46n_LxlJi1OkbGuCBzJVCHHpj_Xe2q_YjlAS-rJT_XDHmmw 	|> content-range: bytes 420420255744-420437032959/* 	|> x-goog-gcs-idempotency-token: bfbe50bb-2416-4444-a2cb-4bfe6093ccb7 	|   	|< HTTP/1.1 503 Service Unavailable 	|< content-length: 0 	|< content-type: text/plain; charset=utf-8 	|  ,GCS Errors
-,2024-05-03T18:10:09.532Z,1714759809,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-4753437651,2024-05-03T18:08:51.914Z,1714759731,java.lang.RuntimeException: java.lang.RuntimeException: java.io.IOException: Path does not exist: formatted_data/1352987841/data/part-27759,Invalid Path
-4753437651,2024-05-03T18:08:51.606Z,1714759731,java.lang.RuntimeException: java.io.IOException: Path does not exist: formatted_data/1352987841/data/part-27759,Invalid Path
-,2024-05-03T18:07:05.710Z,1714759625,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:07:00.564Z,1714759620,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:06:58.600Z,1714759618,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:06:56.203Z,1714759616,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:06:54.327Z,1714759614,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:31.971Z,1714759411,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:29.674Z,1714759409,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:25.419Z,1714759405,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:25.410Z,1714759405,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:25.388Z,1714759405,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:23.522Z,1714759403,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:22.967Z,1714759402,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:15.187Z,1714759395,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:08.660Z,1714759388,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:03:06.365Z,1714759386,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:02:26.269Z,1714759346,Lost connection while trying to acquire lock: /daemons/dist/s2s-packager-daemon/cleanup_lock/locks,Connection Error
-,2024-05-03T18:02:22.450Z,1714759342,Lost connection while trying to acquire lock: /daemons/dist/s2s-packager-daemon/cleanup_lock/locks,Connection Error
-,2024-05-03T18:02:16.255Z,1714759336,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:02:13.399Z,1714759333,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:02:13.371Z,1714759333,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:02:13.364Z,1714759333,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:02:13.364Z,1714759333,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T18:02:08.550Z,1714759328,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T17:49:33.275Z,1714758573,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T17:49:29.434Z,1714758569,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-4751167281,2024-05-03T17:36:00.837Z,1714757760,java.lang.RuntimeException: java.lang.RuntimeException: java.io.IOException: Path does not exist: formatted_data/1352557651/data/part-24790,Invalid Path
-4751167281,2024-05-03T17:36:00.732Z,1714757760,java.lang.RuntimeException: java.io.IOException: Path does not exist: formatted_data/1352557651/data/part-24790,Invalid Path
-4810040811,2024-05-03T17:23:15.345Z,1714756995,com.google.cloud.storage.StorageException: Connection reset,Connection Error
-4810040811,2024-05-03T17:23:15.143Z,1714756995,Connection reset,Connection Error
-,2024-05-03T17:14:27.782Z,1714756467,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T17:14:11.858Z,1714756451,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T17:13:55.986Z,1714756435,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T17:13:41.063Z,1714756421,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T17:13:35.685Z,1714756415,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T16:07:15.547Z,1714752435,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-4809975251,2024-05-03T16:02:59.798Z,1714752179,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809975251,2024-05-03T16:02:59.515Z,1714752179,We encountered an internal error. Please try again.,GCS Errors
-4809972971,2024-05-03T16:00:49.896Z,1714752049,java.lang.RuntimeException: com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809972971,2024-05-03T16:00:49.793Z,1714752049,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-,2024-05-03T16:00:30.199Z,1714752030,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T16:00:29.870Z,1714752029,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T16:00:27.443Z,1714752027,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T16:00:25.646Z,1714752025,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T16:00:18.728Z,1714752018,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T15:59:45.449Z,1714751985,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T15:59:07.978Z,1714751947,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T15:59:06.413Z,1714751946,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T15:57:08.584Z,1714751828,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T15:57:08.557Z,1714751828,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T15:56:13.980Z,1714751773,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T15:56:02.554Z,1714751762,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-4809869771,2024-05-03T15:23:10.759Z,1714749790,java.io.IOException: Invalid sync!,Misc
-4809756081,2024-05-03T15:22:05.760Z,1714749725,java.lang.RuntimeException: java.lang.RuntimeException: javax.net.ssl.SSLException: Read timed out,Timed Out
-4809756081,2024-05-03T15:22:05.559Z,1714749725,java.lang.RuntimeException: javax.net.ssl.SSLException: Read timed out,Timed Out
-4809636351,2024-05-03T15:20:13.385Z,1714749613,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809636351,2024-05-03T15:20:13.150Z,1714749613,We encountered an internal error. Please try again.,GCS Errors
-4809502541,2024-05-03T15:20:11.671Z,1714749611,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809502541,2024-05-03T15:20:11.396Z,1714749611,We encountered an internal error. Please try again.,GCS Errors
-4809203691,2024-05-03T15:20:11.316Z,1714749611,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809859251,2024-05-03T15:20:11.204Z,1714749611,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809203691,2024-05-03T15:20:11.002Z,1714749611,We encountered an internal error. Please try again.,GCS Errors
-4809859251,2024-05-03T15:20:10.976Z,1714749610,We encountered an internal error. Please try again.,GCS Errors
-4809697811,2024-05-03T15:20:10.388Z,1714749610,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809697811,2024-05-03T15:20:10.113Z,1714749610,We encountered an internal error. Please try again.,GCS Errors
-4809732491,2024-05-03T14:56:42.529Z,1714748202,java.lang.RuntimeException: java.lang.RuntimeException: javax.net.ssl.SSLException: Read timed out,Timed Out
-4809732491,2024-05-03T14:56:42.432Z,1714748202,java.lang.RuntimeException: javax.net.ssl.SSLException: Read timed out,Timed Out
-4809408301,2024-05-03T14:42:12.686Z,1714747332,java.lang.RuntimeException: java.lang.RuntimeException: java.io.IOException: com.google.cloud.storage.StorageException: Unknown Error 	|> PUT https://storage.googleapis.com/upload/storage/v1/b/liveramp-eng-dist-deliverer-input/o?name=working_directory/4809408301/data_temp/data-000000000&uploadType=resumable&upload_id=ABPtcPpJdZ1OjetoxiDN3bQXcF9HcUSdfawq8Y5alZy67YlQvCR9tGZU1a8saxMgKcOt5HXo-U0cwf6BWqRYvoHGLkwLN2OluqVBhx2GQHu0i72BuQ 	|> content-range: bytes 314321141760-314337918975/* 	|> x-goog-gcs-idempotency-token: b6460e3b-c3cd-408c-a7cc-6c52a5d4a42a 	|   	|< HTTP/1.1 503 Service Unavailable 	|< content-length: 0 	|< content-type: text/plain; charset=utf-8 	|  ,GCS Errors
-4809408301,2024-05-03T14:42:12.337Z,1714747332,java.lang.RuntimeException: java.io.IOException: com.google.cloud.storage.StorageException: Unknown Error 	|> PUT https://storage.googleapis.com/upload/storage/v1/b/liveramp-eng-dist-deliverer-input/o?name=working_directory/4809408301/data_temp/data-000000000&uploadType=resumable&upload_id=ABPtcPpJdZ1OjetoxiDN3bQXcF9HcUSdfawq8Y5alZy67YlQvCR9tGZU1a8saxMgKcOt5HXo-U0cwf6BWqRYvoHGLkwLN2OluqVBhx2GQHu0i72BuQ 	|> content-range: bytes 314321141760-314337918975/* 	|> x-goog-gcs-idempotency-token: b6460e3b-c3cd-408c-a7cc-6c52a5d4a42a 	|   	|< HTTP/1.1 503 Service Unavailable 	|< content-length: 0 	|< content-type: text/plain; charset=utf-8 	|  ,GCS Errors
-4809509631,2024-05-03T14:13:16.019Z,1714745596,java.lang.RuntimeException: java.lang.RuntimeException: javax.net.ssl.SSLException: Read timed out,Timed Out
-4809509631,2024-05-03T14:13:15.820Z,1714745595,java.lang.RuntimeException: javax.net.ssl.SSLException: Read timed out,Timed Out
-4809628651,2024-05-03T14:13:15.339Z,1714745595,java.lang.RuntimeException: java.lang.RuntimeException: javax.net.ssl.SSLException: Read timed out,Timed Out
-4809628651,2024-05-03T14:13:15.148Z,1714745595,java.lang.RuntimeException: javax.net.ssl.SSLException: Read timed out,Timed Out
-,2024-05-03T14:11:35.172Z,1714745495,"Lost Zookeeper session with cluster zk-dist.default.svc.cluster.local, shutting down daemon process without waiting for joblet completion.",Zookeeper Errors
-,2024-05-03T14:11:15.970Z,1714745475,ZK connection became SUSPENDED,Zookeeper Errors
-4753639161,2024-05-03T13:48:42.863Z,1714744122,java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
-4753639161,2024-05-03T13:48:42.469Z,1714744122,java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
-4809566581,2024-05-03T13:41:23.962Z,1714743683,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809566581,2024-05-03T13:41:23.686Z,1714743683,We encountered an internal error. Please try again.,GCS Errors
-4809421651,2024-05-03T13:39:22.733Z,1714743562,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809421651,2024-05-03T13:39:22.628Z,1714743562,We encountered an internal error. Please try again.,GCS Errors
-4809564281,2024-05-03T13:38:47.080Z,1714743527,java.lang.RuntimeException: com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-4809564281,2024-05-03T13:38:46.990Z,1714743526,com.google.cloud.storage.StorageException: We encountered an internal error. Please try again.,GCS Errors
-,2024-05-03T13:25:59.668Z,1714742759,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T13:25:59.666Z,1714742759,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T13:25:59.408Z,1714742759,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T13:25:57.703Z,1714742757,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T13:25:57.702Z,1714742757,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T13:25:56.642Z,1714742756,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T13:25:56.625Z,1714742756,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T13:25:45.787Z,1714742745,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
-,2024-05-03T13:25:31.252Z,1714742731,ShutdownHookManager shutdown forcefully after 30 seconds.,Misc
+4740683361,2024-05-07T21:33:25.757Z,1715117605,java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
+4740683361,2024-05-07T21:33:25.635Z,1715117605,java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
+4740683361,2024-05-01T22:26:01.741Z,1714602361,java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
+4740683361,2024-05-01T22:26:01.441Z,1714602361,java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
+4740683361,2024-05-01T07:03:23.782Z,1714547003,java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
+4740683361,2024-05-01T07:03:23.655Z,1714547003,java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
+4740683361,2024-04-17T08:35:43.339Z,1713342943,java.lang.OutOfMemoryError: Java heap space,OOM
+4740683361,2024-04-17T08:35:43.223Z,1713342943,Java heap space,OOM
+4740683361,2024-04-15T13:04:37.775Z,1713186277,java.lang.OutOfMemoryError: Java heap space,OOM
+4740683361,2024-04-15T13:04:37.678Z,1713186277,Java heap space,OOM

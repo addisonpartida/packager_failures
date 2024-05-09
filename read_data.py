@@ -107,7 +107,9 @@ def parse_json(results):
     
     table_dictionary = {}
     entry_meta_list = []
+
     for entry in results:
+        print("*******************NEW ENTRY TO BE PROCESSED:***********************", entry)
         #get request ID
         if entry['stream'].get('attributes_mdc_request_id'):
             stream_reqid = entry['stream']['attributes_mdc_request_id']
@@ -127,9 +129,6 @@ def parse_json(results):
             stream_error = stream_error.replace(s1, s2)
         elif entry['stream'].get('attributes_message'):
             stream_error = entry['stream']['attributes_message']
-            s1= '\n'
-            s2= " "
-            stream_error = stream_error.replace(s1, s2)
         
         else:
             stream_error = None
@@ -168,48 +167,5 @@ parsed_df = parse_json(results)
 print(parsed_df)
 
 parsed_df.to_csv('to_bq.csv', index=False)
-
-# def preprocess_csv(input_file, output_file):
-#     with open('to_bq.csv', 'r') as f_in, open(output_file, 'w') as f_out:
-#         reader = csv.reader(f_in)
-#         writer = csv.writer(f_out)
-
-#         for row in reader:
-#             # Check if the row contains an error message
-#             if len(row) > 0 and 'ERROR' in row[0]:
-#                 # Replace newline characters with a space
-#                 error_message = ' '.join(row)
-#                 writer.writerow([error_message])
-#             else:
-#                 writer.writerow(row)
-# preprocess_csv('to_bq.csv', 'to_bq_pretty.csv')                
-
-
-
-######### BELOW IS FOR EXPORTING AS JSONL to "errors_to_bq.jsonl"
-    # with open(output_file_path, "w") as jsonl_file:
-    #     for entry_meta in entry_meta_list:
-    #         for req_id, entries in entry_meta.items():
-    #             for entry in entries:
-    #                 data = {req_id: {
-    #                     "date": entry["date"],
-    #                     "epoch_time": entry["epoch_time"],
-    #                     "Error_Message": entry["Error_Message"],
-    #                     "Error Category": entry["Error Category"]
-    #                 }}
-    #                 jsonl_file.write(json.dumps(data) + "\n")
-
-    # # print("Data exported to", output_file_path)
-    # print("Data exported to", 'errors_to_bq.json')
             
 parse_json(results)
-
-#try to send to bq from here
-
-# from google.cloud import bigquery
-# from pandas_gbq import to_gbq
-
-# project_id = 'liveramp-ts-bigquery.partida_addison'
-# table_name = 'liveramp-ts-bigquery.partida_addison.TEST'
-
-# to_gbq(parsed_df, table_name, project_id=project_id, if_exists='replace')
