@@ -13,9 +13,9 @@ def timestamp_to_epoch(timestamp):
     epoch_time = (dt - datetime(1970, 1, 1)).total_seconds()
     return int(epoch_time)
 
-def categorize_errors(error_message):
+def categorize_packager_errors(error_message):
     if not isinstance(error_message, str):
-        return 'other_error_not_string'
+        return 'error message is not a string'
     error_patterns = {
         'Invalid Path': [
             r'.* Cannot generate a package summary because an invalid package path was given: .* is neither a directory nor a file path.',
@@ -38,7 +38,6 @@ def categorize_errors(error_message):
             r'.*KeeperErrorCode = ConnectionLoss.*',
             r'.*Lost Connection while trying to acquire lock.*',
             r'.*Connection reset.*'
-    
         ],
         'GCS Errors': [
             r'.*java.lang.RuntimeException: com.google.cloud.storage.StorageException: Unknown Error.*'
@@ -66,16 +65,12 @@ def categorize_errors(error_message):
             r'.*Unable to persist.*'
         ],
         'Undefined Variables/Methods':[
-            r'.*instance must be started before calling this method.*',
             r'.*undefined local variable or method.*',
             r'.*instance must be started.*'
-
         ],
-
         'Zookeeper Errors':[
             r'.*ZooKeeper.*',
-            r'.*ZK connection.*'
-            
+            r'.*ZK connection.*' 
         ]
 }
     # for error_type, pattern in error_patterns.items():
@@ -95,7 +90,7 @@ data = None
 with open('data.json') as json_data:
      d = json.load(json_data)
 
-results = d['data']['result']
+# results = d['data']['result']
 
 
 
@@ -109,7 +104,6 @@ def parse_json(results):
     entry_meta_list = []
 
     for entry in results:
-        print("*******************NEW ENTRY TO BE PROCESSED:***********************", entry)
         #get request ID
         if entry['stream'].get('attributes_mdc_request_id'):
             stream_reqid = entry['stream']['attributes_mdc_request_id']
@@ -134,7 +128,7 @@ def parse_json(results):
             stream_error = None
 
     #categorizes the error messages with helper from above, using patterns listed above too
-        error_type = categorize_errors(stream_error)
+        error_type = categorize_packager_errors(stream_error)
 
         #if key is already in dict, append a new dictionary to the list value
         entry_meta = {}
@@ -162,10 +156,8 @@ def parse_json(results):
 
     df = pd.DataFrame(df_data)
     return df
-
-parsed_df = parse_json(results)
-print(parsed_df)
-
-parsed_df.to_csv('to_bq.csv', index=False)
-            
-parse_json(results)
+    
+# parsed_df = parse_json(results)
+# print(parsed_df)
+# parsed_df.to_csv('to_bq.csv', index=False)
+# parse_json(results)

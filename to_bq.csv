@@ -1,11 +1,4 @@
 ID,timestamp,epoch_time,error_message,error_category
-4740683361,2024-05-07T21:33:25.757Z,1715117605,java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
-4740683361,2024-05-07T21:33:25.635Z,1715117605,java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
-4740683361,2024-05-01T22:26:01.741Z,1714602361,java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
-4740683361,2024-05-01T22:26:01.441Z,1714602361,java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
-4740683361,2024-05-01T07:03:23.782Z,1714547003,java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
-4740683361,2024-05-01T07:03:23.655Z,1714547003,java.lang.RuntimeException: java.lang.IllegalStateException: Cannot write empty metadata file.,Invalid Path
-4740683361,2024-04-17T08:35:43.339Z,1713342943,java.lang.OutOfMemoryError: Java heap space,OOM
-4740683361,2024-04-17T08:35:43.223Z,1713342943,Java heap space,OOM
-4740683361,2024-04-15T13:04:37.775Z,1713186277,java.lang.OutOfMemoryError: Java heap space,OOM
-4740683361,2024-04-15T13:04:37.678Z,1713186277,Java heap space,OOM
+4838837981,2024-05-12T15:38:08.458Z,1715528288,liveramp-eng-dist-packager-configs/service/configs/4838837981.ser does not exist in cloud storage.,Uncategorized error
+4840764401,2024-05-13T01:29:12.900Z,1715563752,java.lang.RuntimeException: java.lang.NullPointerException,Null Pointer Exception
+4840764401,2024-05-13T01:29:12.844Z,1715563752,java.lang.NullPointerException,Null Pointer Exception
