@@ -1,0 +1,35 @@
+WITH dsj_ids AS (
+    SELECT dsjs.id
+    FROM `corp-bi-us-prod.rldb.data_sync_jobs` dsjs
+    WHERE dsjs.external_client_identifier IN (
+        SELECT CAST(ssas.id AS STRING)
+        FROM `corp-bi-us-prod.rldb.server_side_accounts` ssas
+        WHERE ssas.destination_account_id IN (
+            SELECT das.id
+            FROM `corp-bi-us-prod.rldb.destination_accounts` das
+            WHERE das.customer_id = 557216
+        )
+    )
+    AND dsjs.created_at BETWEEN DATE_SUB(CURRENT_DATE(), INTERVAL 31 DAY) AND DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY)
+)
+
+SELECT 
+    DISTINCT sr.id AS packager_id,
+    events.data_sync_job_id,
+    events.created_at
+FROM 
+    `corp-bi-us-prod.rldb.stg_rldb_data_sync_job_events` events
+JOIN 
+    `corp-bi-us-prod.rldb.service_requests` sr
+ON 
+    SAFE_CAST(sr.external_identifier AS int64) = events.data_sync_job_id
+JOIN 
+    dsj_ids
+ON 
+    dsj_ids.id = events.data_sync_job_id
+WHERE 
+    events.created_at >= DATE_SUB(CURRENT_DATE(), INTERVAL 30 DAY)
+    AND events.status = 3
+    AND events.step = 4
+    AND sr.application_identifier = 2
+LIMIT 20;

@@ -92,7 +92,7 @@ def categorize_packager_errors(error_message):
             # Ensure pattern is a string before using it
             if re.search(pattern, error_message, re.IGNORECASE):
                 return error_type    
-    return 'Uncategorized error'
+    return 'Uncategorized Error'
 
 
 
